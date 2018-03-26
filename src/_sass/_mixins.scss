@@ -64,9 +64,21 @@
       padding: 0 $m*30px;
   }
   .btn {
-    font-size: $m*1.7em;
     padding: $m*.35em $m*1.25em;
   }
+  .btn-md {
+    font-size: $m*0.75em;
+  }
+  .btn-md {
+    font-size: $m*1em;
+  }
+  .btn-lg {
+    font-size: $m*1.25em;
+  }
+  .btn-xl {
+    font-size: $m*1.5em;
+  }
+
   .hero {
     padding: $m*3em 0;
     font-size: $m*2.5em;
