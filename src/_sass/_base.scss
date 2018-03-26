@@ -57,12 +57,6 @@ ul, ol {
   }
 }
 
-section {
-    padding: 12em 0;
-    margin: 0;
-    border-bottom: 1px solid $color-gray-lighter;
-}
-
 // Links
 a {
   color: $brand-color;
@@ -173,17 +167,17 @@ pre {
 /* --------- 0-320px: iPhone 5 ---- */
 @media screen and (max-width: 320px) {
   @include build-responsive-page(0.8);
-  @include slim-navbar-brand();
+  // @include slim-navbar-brand();
 }
 /* --------- 321-546px: iPhone 6 / Plus --------------- */
 @media screen and (min-width: 321px) and (max-width: 546px) {
   @include build-responsive-page(0.95);
-  @include slim-navbar-brand();
+  // @include slim-navbar-brand();
 }
 /* --------- 547-767px -------------------------------- */
 @media screen and (min-width: 547px)  and (max-width: 767px) {
   @include build-responsive-page(1.05);
-  @include slim-navbar-brand();
+  // @include slim-navbar-brand();
 }
 /* --------- 768px - 950px ---------------------------- */
 @media screen and (min-width: 768px) and (max-width: 950px) {

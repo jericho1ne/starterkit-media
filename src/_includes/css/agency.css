@@ -451,16 +451,6 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
-    background-color: #222;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-section#contact .section-heading {
-    color: #fff;
-}
-
 section#contact .form-group {
     margin-bottom: 25px;
 }
@@ -470,18 +460,6 @@ section#contact .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: #{{ site.data.template.color.primary }};
-    box-shadow: none;
-}
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
@@ -509,24 +487,6 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
-}
-
-footer {
-    padding: 25px 0;
-    text-align: center;
-}
-
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    line-height: 40px;
-}
-
-footer ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    line-height: 40px;
 }
 
 ul.social-buttons {

@@ -26,17 +26,15 @@
   // background-color: $color-secondary;
 }
 .btn-md {
-  padding: .2em 1em;
-  font-size: 1.25em;
+  // padding: .2em 1em;
+  // font-size: 1.25em;
 }
 .btn-lg {
-  padding: .35em 1.25em;
-  font-size: 1.5em;
+  // padding: .35em 1.25em;
+  // font-size: 1.5em;
 }
 .btn-xl {
   margin-top: 0.25em;
-  padding: .5em 1.5em;
-  font-size: 2.0em;
 }
 
 // LISTS
@@ -132,24 +130,20 @@ textarea.form-control {
 
 // Landing page text
 header {
-  z-index: 1020;
+  z-index: 10;
   min-height: 100vh;
+  // max-width: 100%;
   height: auto;
+  width: auto;
+
 
   text-align: center;
   color: #fff;
   font-face: $header-font-family;
   padding: 10em 0;
 
-  .intro-heading {
-    @media (min-width: 768px) {
-      padding: 3.5em 1em 2.0em 1em;
-      font-size: 3.5em;
-    }
-    padding: 2.5em 0;
-    font-size: 3em;
-    font-weight: 2em;
-    margin-top: 1em;
+  .hero {
+    opacity: 0.9;
     text-shadow: 0.05rem 0.05rem 0.15rem rgba(0, 0, 0, 0.95);
   }
 }
@@ -158,7 +152,7 @@ header {
 .intro-text {
   z-index: 10 !important;
   width: 100%;
-  height: 100vh;
+  margin: 0;
 }
 
 .video-overlay,
@@ -172,7 +166,7 @@ header {
 .video-overlay {
   padding-bottom: 0px !important;
   background: -webkit-gradient(linear, left top, left bottom, 
-      from(rgba(0,0,0,0.8)),
+      from(rgba(0,0,0,0.7)),
       to(rgba(0,0,0,0.0)), color-stop(0,#000)
   );
 
@@ -186,31 +180,49 @@ header {
 }
 
 // Background Video
-.video-wrap {
-  opacity: 1;
-  z-index: 1;
-  
-  background-color: darken($color-primary, 40);
+.video-wrapper {
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  top: 0;
+  left: 0;
+  background-image: url('../img/header-bg.jpg');
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  // width: auto;
+  // height: auto;
 
-  .video-bg {
-    background-attachment: scroll;
-    background-image: url('../img/header-bg.jpg');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  video {
+    position: fixed;
+    top: 50%; left: 50%; 
+    transform: translate(-50%, -50%);
+    
     min-width: 100%;
     min-height: 100%;
-    //min-height: 100vh;
 
-    width: 100%;
+    width: auto;
     height: auto;
-    display: block;
-    z-index: 1;
-    opacity: 1;
-    overflow: hidden;
-    // border-bottom: 3px solid black;
+    z-index: -100;
+
+    background: rgba(0,0,0,0);
+    // display: block;
   }
+}
+
+section * {
+    z-index: 10;
+}
+
+section {
+    padding: 14em 0 8em 0;
+    position: relative;
+
+    z-index: 10;
+    margin: 0;
+    border-bottom: 1px solid $color-gray-lighter;
+    background-color: #fff;
 }

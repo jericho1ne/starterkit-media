@@ -20,11 +20,26 @@
 }
 
 @mixin build-responsive-page($m) {
-  $top-bottom-padding: 1rem;
-  $left-right-padding: 2rem;
+  $top-bottom-padding: .7rem;
+  $left-right-padding: 1.25rem;
 
   .navbar {
-    padding: $m * $top-bottom-padding 0;
+    padding: $m*.7rem 0 $m*.2rem 0;
+    .navbar-brand {
+      font-size: $m*1em;
+      padding: $m*0.25em $m*1em;
+      margin: $m*1.25em $m*0.15em;
+    }
+    .navbar-nav {
+      >li {
+        > .navbar-link {
+          padding: $m*.65em $m*1.25em;
+          margin: $m*0.75em $m*0.1em;
+          font-size: $m*.95em;
+          letter-spacing: $m*0.15em;
+        }
+      }
+    }
   }
 
   // HORIZONTAL RULE
@@ -48,98 +63,111 @@
   *[class^='col-sm'] {
       padding: 0 $m*30px;
   }
+  .btn {
+    font-size: $m*1.7em;
+    padding: $m*.35em $m*1.25em;
+  }
+  .hero {
+    padding: $m*3em 0;
+    font-size: $m*2.5em;
+    font-weight: 200;
+    margin-top: $m*1em;
+  }
 }
 
 // Mobile
-@media (min-width: 0em) {
-  button.navbar-toggle {
-    display: block;
-  }
-  .content {
-    padding-top: 1rem;
-    padding: 0 1rem;
-  }
-  .sidebar {
-    background: rgba(255,255,255,0);
-  }
-  .sidebar-sticky {
-    display: none;
-  }
-  // .social-media-list,
-  // .tagline {
-  //   display: none;
-  // }
-  p.lead {
-    margin-bottom: 0;
-  }
-}
+// @media (min-width: 0em) {
+//   button.navbar-toggle {
+//     display: block;
+//   }
+//   .content {
+//     padding-top: 1rem;
+//     padding: 0 1rem;
+//   }
+//   .sidebar {
+//     background: rgba(255,255,255,0);
+//   }
+//   .sidebar-sticky {
+//     display: none;
+//   }
+//   .hero {
+//     padding: 5em 1em 2.0em 1em;
+//   }
+//   // .social-media-list,
+//   // .tagline {
+//   //   display: none;
+//   // }
+//   p.lead {
+//     margin-bottom: 0;
+//   }
+// }
 
-// Laptop
-@media (min-width: 48em) {
-  button.navbar-toggle {
-    display: none;
-  }
-  .content {
-    padding-top: 2rem;
+// // Laptop
+// @media (min-width: 48em) {
+//   button.navbar-toggle {
+//     display: none;
+//   }
+//   .content {
+//     padding-top: 2rem;
 
-    // border: 1px solid magenta;
-    max-width: 32rem;
-    margin-left: 16rem;
-    margin-right: 1rem;
-  }
-  .sidebar {
-    display: block;
-    position: fixed;
-    padding: 2.0rem 1.5rem;
-    width: 13rem;
-    text-align: left;
-    background-color: rgba(0,0,0,.85);
-  }
-  .sidebar-sticky {
-    display: block;
-    position: absolute;
-  }
-  .social-media-list {
-    display: block;
-  }
-  .sidebar-nav {
-    display: block;
-  }
-}
+//     // border: 1px solid magenta;
+//     max-width: 32rem;
+//     margin-left: 16rem;
+//     margin-right: 1rem;
+//   }
+//   .sidebar {
+//     display: block;
+//     position: fixed;
+//     padding: 2.0rem 1.5rem;
+//     width: 13rem;
+//     text-align: left;
+//     background-color: rgba(0,0,0,.85);
+//   }
+//   .sidebar-sticky {
+//     display: block;
+//     position: absolute;
+//   }
+//   .social-media-list {
+//     display: block;
+//   }
+//   .sidebar-nav {
+//     display: block;
+//   }
+// }
 
-@media (min-width: 52em) {
-  .content {
-    // border: 1px solid green;
-    max-width: 34rem;
-    margin-left: 18rem;
-    margin-right: 2rem;
-  }
-  .sidebar {
-    width: 12rem;
-    padding: 2.5rem 2.5rem;
-  }
-}
-@media (min-width: 58em) {
-  .sidebar {
-    width: 14rem;
-    padding: 3.5rem 2rem;
-  }
-  .content {
-    // border: 1px solid red;
-    max-width: 36rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
-  }
-}
-@media (min-width: 64em) {
-  .sidebar {
-    width: 14rem;
-    padding: 3.5rem 3rem;
-  }
-  .content {
-    // border: 1px solid blue;
-    max-width: 38rem;
-    margin-left: 22rem;
-    margin-right: 3rem;
-  }
-}
+// @media (min-width: 52em) {
+//   .content {
+//     // border: 1px solid green;
+//     max-width: 34rem;
+//     margin-left: 18rem;
+//     margin-right: 2rem;
+//   }
+//   .sidebar {
+//     width: 12rem;
+//     padding: 2.5rem 2.5rem;
+//   }
+// }
+// @media (min-width: 58em) {
+//   .sidebar {
+//     width: 14rem;
+//     padding: 3.5rem 2rem;
+//   }
+//   .content {
+//     // border: 1px solid red;
+//     max-width: 36rem;
+//     margin-left: 20rem;
+//     margin-right: 2rem;
+//   }
+// }
+// @media (min-width: 64em) {
+//   .sidebar {
+//     width: 14rem;
+//     padding: 3.5rem 3rem;
+//   }
+//   .content {
+//     // border: 1px solid blue;
+//     max-width: 38rem;
+//     margin-left: 22rem;
+//     margin-right: 3rem;
+//   }
+// }
