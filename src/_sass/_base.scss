@@ -57,37 +57,11 @@ ul, ol {
   }
 }
 
-
 section {
     padding: 12em 0;
     margin: 0;
     border-bottom: 1px solid $color-gray-lighter;
 }
-
-// Landing page text
-header {
-  z-index: 1020;
-  min-height: 100vh;
-  height: auto;
-
-  text-align: center;
-  color: #fff;
-  font-face: $header-font-family;
-  padding: 10em 0;
-
-  .intro-heading {
-    @media (min-width: 768px) {
-      padding: 5em 2em;
-      font-size: 4em;
-    }
-    padding: 2.5em 0;
-    font-size: 3em;
-    font-weight: 2em;
-    margin-top: 1em;
-    text-shadow: 0.05rem 0.05rem 0.15rem rgba(0, 0, 0, 0.95);
-  }
-}
-
 
 // Links
 a {
