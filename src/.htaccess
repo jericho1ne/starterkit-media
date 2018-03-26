@@ -1,0 +1,17 @@
+ModPagespeed off
+Header set Access-Control-Allow-Origin "*"
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+
+# Same as above, but avoiding a 302 error
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# forward request to html file, **but don't redirect (bot friendly)**
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Redirect all 404s to home page
+FallbackResource /index.html
+# ErrorDocument 404 /index.html
+</IfModule>

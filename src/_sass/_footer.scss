@@ -1,0 +1,25 @@
+//
+// Footer
+//
+
+footer {
+  margin-top: $spacing-unit * 4;
+  padding: 40px 0;
+  border-top: 1px solid $color-gray-lighter;
+
+  .site-logo-footer {
+    height: 34px;
+    width: 186px;
+    margin: -12px 0 -7px -3px;
+  }
+}
+
+.sidebar-footer {
+  font-size: $small-font-size;
+}
+.site-footer {
+  // background-color: $color-gray-darker;
+  background-image: linear-gradient(to bottom, $color-gray-lightest 10%,
+    #fff 100%) !important;
+}
+

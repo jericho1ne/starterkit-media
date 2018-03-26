@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:700,900|Assistant:700|Biryani:700,800,900|Josefin+Sans:300,400,600,700');
+
+//
+// Fonts and related mixins
+//
+
+$header-font-family: 'Assistant', 'Helvetica Neue', Helvetica, sans-serif !default;
+$header-font-family-alt: 'Alegreya Sans', 'Helvetica Neue', Helvetica, sans-serif !default;
+
+$body-font-family: 'Biryani', Arial, sans-serif !default;
+$body-font-family-alt: 'Josefin Sans', Arial, sans-serif !default;
+
+// Preset sizes
+$h1FontSize: 28px;
+$h2FontSize: 24px;
+$h3FontSize: 22px;
+$h4FontSize: 20px;
+$h5FontSize: 18px;
+$h6FontSize: 16px;
+$font-size-base: 14px;
+
+$base-font-weight: 400 !default;
+$small-font-size:  $font-size-base * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$text-color: $color-gray-dark;
+
+@mixin relative-font-size($ratio) {
+  font-size: $font-size-base * $ratio;
+}
+
+body {
+  font-family: $body-font-family-alt;
+  font-size: 1.75em;
+  font-weight: 300;
+  color: $color-gray-darkest;
+}
+// TODO: copy responsive mixin
+h1 {
+  // font-size: 32px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+h2 {
+  // font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+}
+
+h3, h4, h5, h6 {
+  text-transform: none !important;
+}
+
+
+.text-primary {
+    color: lighten($color-primary, 10);
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 0.015em;
+}
+
+p {
+  line-height: 1.75em;
+  &.muted {
+    opacity: .9;
+  }
+  &.lead {
+    padding: 1em 0 2em;
+  }
+}
+
+header {
+  font-family: $header-font-family;
+}
+
+a:not(.navbar-link):not(.navbar-brand):not(.btn) {
+  color: $color-primary !important;
+  font-weight: 500;
+  &:visited {
+    color: $color-primary !important;
+  }
+  &:hover {
+  }
+}
+.post-meta {
+  // color: lighten($color-primary, 30);
+  color: lighten($color-gray, 10);
+  letter-spacing: 2px;
+}
+
+
+// Headings
+
+h1, h2, h3 {
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+h4, h5, h6 {
+  font-weight: 500;
+}
+
+// Set `margin-bottom` to maintain vertical rhythm
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit;
+}
+
+// figcaption {
+//   font-size: $small-font-size;
+// }
+
+footer {
+  color: $color-gray-light;
+  font-size: 12px !important;
+}

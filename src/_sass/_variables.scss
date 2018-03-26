@@ -1,0 +1,30 @@
+//
+// Variables
+//
+
+$spacing-unit: 12px !default;
+
+$background-color: #fafafa !default;
+$brand-color:      #2a7ae2 !default;
+
+$color-blue: #66ccff;
+
+$color-blue-dark: darken($color-blue, 40);
+$color-blue-light: lighten($color-blue, 10);
+$color-blue-lighter: lighten($color-blue, 15);
+$color-blue-lightest: lighten($color-blue, 20);
+
+$color-green: #49C47E;
+$color-red-light: #ff0000;
+
+$color-gray: #aaa !default;
+$color-gray-light: lighten($color-gray, 10%);
+$color-gray-lighter: lighten($color-gray, 20%);
+$color-gray-lightest: lighten($color-gray, 30%);
+$color-gray-dark: darken($color-gray, 15%);
+$color-gray-darker: darken($color-gray, 30%);
+$color-gray-darkest: darken($color-gray, 55%);
+
+$color-primary: $color-blue-light;
+$color-secondary: $color-green;
+$color-tertiary: $color-red-light;

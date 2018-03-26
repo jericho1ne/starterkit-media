@@ -1,0 +1,15 @@
+{
+  "name": "starterkit-media",
+  "version": "1.0.0",
+  "description": "Audio/Video Executive Production",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gems": "cd src && bundle install",
+    "start": "npm run serve",
+    "serve": "jekyll serve --source src --destination dist --livereload",
+    "deploy": "jekyll build --source src --destination dist && ./deploy.sh"
+  },
+  "author": "Mihai Peteu / Low Tide Digital LLC",
+  "license": "ISC"
+}

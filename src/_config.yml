@@ -1,0 +1,55 @@
+url: https://lowtideannex.com/demo/skm
+baseurl: ""
+
+# Site settings
+title: StarterKit Media
+email: connect@starterkitmedia.com
+description: "Visionary audio and video production for aspiring artists. Certified Avid + Pro Tools. sound production, studio time, budgeting."
+
+
+# Team names, titles and social links
+people:
+- name: Paul Cline
+  pic: paul-cline
+  position: Executive Producer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+
+- name: Thomas Iannucci
+  pic: thomas-iannucci
+  position: Songwriter
+  social:
+    - title: twitter
+      url: https://twitter.com/theilltalian
+    - title: facebook
+      url: https://www.facebook.com/pg/theilltalian/
+
+- name: Raku Media
+  pic: raku-media
+  position: Media Production
+  social:
+    - title: twitter
+      url: https://twitter.com/RakuMediaLLC
+    - title: facebook
+      url: https://www.facebook.com/RakuMedia
+
+# Social network handles 
+# (eg: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/unknownendvrs
+  - title: facebook
+    url: https://www.facebook.com/pg/unknownendeavors/
+  - title: linkedin
+    url: https://www.linkedin.com/in/paul-cline-a5a10457/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Los Angeles, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

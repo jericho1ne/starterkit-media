@@ -1,0 +1,229 @@
+@import "variables";
+
+//
+// Base elements
+//
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+// Basic styling
+body {
+  background-color: lighten($color-gray-lightest, 10%);
+}
+
+// Set `margin-bottom` to maintain vertical rhythm
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, figure,
+%vertical-rhythm {
+margin-bottom: $spacing-unit * 2;
+}
+
+// `main` element
+main {
+  display: block;
+}
+
+hr {
+  opacity: 0.5;
+
+  &.spacer {
+    opacity: 0;
+    padding: 0.3rem 0;
+  }
+}
+
+// Images
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+// Figures
+figure > img {
+  display: block;
+}
+
+// Lists
+ul, ol {
+  margin-bottom: 0;
+  li {
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+
+section {
+    padding: 12em 0;
+    margin: 0;
+    border-bottom: 1px solid $color-gray-lighter;
+}
+
+// Landing page text
+header {
+  z-index: 1020;
+  min-height: 100vh;
+  height: auto;
+
+  text-align: center;
+  color: #fff;
+  font-face: $header-font-family;
+  padding: 10em 0;
+
+  .intro-heading {
+    @media (min-width: 768px) {
+      padding: 5em 2em;
+      font-size: 4em;
+    }
+    padding: 2.5em 0;
+    font-size: 3em;
+    font-weight: 2em;
+    margin-top: 1em;
+    text-shadow: 0.05rem 0.05rem 0.15rem rgba(0, 0, 0, 0.95);
+  }
+}
+
+
+// Links
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+// Blockquotes
+
+blockquote {
+  position: relative;
+  // color: $color-secondary;
+  margin-top: 4px;
+  padding-left: 20px;
+  border-width: 0 0 0 8px;
+  border-style: solid;
+  border-left: 2px solid $color-secondary;
+
+  // -webkit-border-image:
+  //     -webkit-gradient(linear, 100% 0, 0 0, from($color-secondary), to($color-primary)) 1 100%;
+  //   -webkit-border-image:
+  //     -webkit-linear-gradient(right, $color-secondary, lighten($color-primary, 12%)) 1 100%;
+  //   -moz-border-image:
+  //     -moz-linear-gradient(right, $color-secondary, lighten($color-primary, 12%)) 1 100%;
+  //   -o-border-image:
+  //     -o-linear-gradient(right, $color-secondary, lighten($color-primary, 12%)) 1 100%;
+  //   border-image:
+  //     linear-gradient(to right, $color-secondary, lighten($color-primary, 12%)) 1 100%;
+  // border-left: 8px solid linear-gradient(to bottom, $color-primary 0, $color-primary 100%);
+
+  @include relative-font-size(1.125);
+  letter-spacing: 0.5px;
+  font-style: italic;
+
+  // text-transform: uppercase;
+  > :last-child {
+    margin-bottom: 0;
+  }
+  &:before {
+    position: absolute;
+    opacity: 0.9;
+    content: "\201C";
+    color: lighten($color-primary, 12%);
+    left: 0px;
+    top: -4px;
+    font-family: Georgia, serif;
+    font-size: 28px;
+  }
+}
+
+label {
+  color: darken($color-gray,3%);
+}
+
+.container {
+// padding-right: 20px;
+// padding-left: 20px;
+
+}
+// Code formatting
+pre,
+code {
+  @include relative-font-size(0.9375);
+  border: 1px solid $color-gray-light;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// RESPONSIVENESSSSS
+/* --------- 0-320px: iPhone 5 ---- */
+@media screen and (max-width: 320px) {
+  @include build-responsive-page(0.8);
+  @include slim-navbar-brand();
+}
+/* --------- 321-546px: iPhone 6 / Plus --------------- */
+@media screen and (min-width: 321px) and (max-width: 546px) {
+  @include build-responsive-page(0.95);
+  @include slim-navbar-brand();
+}
+/* --------- 547-767px -------------------------------- */
+@media screen and (min-width: 547px)  and (max-width: 767px) {
+  @include build-responsive-page(1.05);
+  @include slim-navbar-brand();
+}
+/* --------- 768px - 950px ---------------------------- */
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  @include build-responsive-page(1.1);
+}
+/* --------- 950px - 1200px ----------------------------- */
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  @include build-responsive-page(1.15);
+}
+/* --------- 1201px - 1600px ------------------------------ */
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  @include build-responsive-page(1.2);
+}
+/* --------- 1601px + ----------- */
+@media screen and (min-width: 1601px) and (max-width: 10000px) {
+  @include build-responsive-page(1.35);
+}
