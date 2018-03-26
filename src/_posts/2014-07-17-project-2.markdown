@@ -1,11 +1,11 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Artist Name 
+subtitle: Studio Time
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: star5.jpg
+thumbnail: star5-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
