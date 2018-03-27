@@ -79,11 +79,8 @@ textarea.form-control {
 }
 button.navbar-toggle {
   height: 40px;
-  margin-left: 1rem;
-  margin-top: 2rem;
-
   border:0;
-  border-radius: 3px;
+  border-radius: 4px;
   transition: all 0.3s ease;
   cursor: pointer;
   background: $color-secondary;
@@ -135,16 +132,37 @@ header {
   // max-width: 100%;
   height: auto;
   width: auto;
-
-
   text-align: center;
   color: #fff;
   font-face: $header-font-family;
-  padding: 10em 0;
 
   .hero {
     opacity: 0.9;
     text-shadow: 0.05rem 0.05rem 0.15rem rgba(0, 0, 0, 0.95);
+  }
+  .btn {
+    background: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    &:hover, &:active {
+      background-color: lighten($color-secondary, 5);
+    }
+  }
+  .banner-top, .banner-cta {
+    position: absolute;
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+    z-index: 101;
+    // top: 20%;
+  }
+  .banner-top { 
+    top: 20%;
+  }
+  .banner-cta {
+  //   position: absolute;
+  //   width: 100%;
+    bottom: 15%;
   }
 }
 
@@ -152,7 +170,9 @@ header {
 .intro-text {
   z-index: 10 !important;
   width: 100%;
+  height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .video-overlay,
@@ -166,8 +186,8 @@ header {
 .video-overlay {
   padding-bottom: 0px !important;
   background: -webkit-gradient(linear, left top, left bottom, 
-      from(rgba(0,0,0,0.7)),
-      to(rgba(0,0,0,0.0)), color-stop(0,#000)
+      from(rgba(100,100,100,0)),
+      to(rgba(0,0,0,0.4)), color-stop(0, rgba(200,100,100,0.6))
   );
 
   // background-color: darken($color-gray-darkest, 10);
@@ -213,16 +233,36 @@ header {
   }
 }
 
-section * {
-    z-index: 10;
+section {
+  z-index: 10;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  border-bottom: 1px solid $color-gray-lighter;
+  background-color: #fafafa;
 }
 
-section {
-    padding: 14em 0 8em 0;
-    position: relative;
+ul.social-buttons {
+  margin-bottom: 0;
 
-    z-index: 10;
-    margin: 0;
-    border-bottom: 1px solid $color-gray-lighter;
-    background-color: #fff;
+  li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: $color-gray-lightest;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $color-gray-lighter;
+    }
+  }
 }

@@ -1,8 +1,8 @@
 // Mixins
 %transition-all {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
 @mixin slim-navbar-brand() {
@@ -23,19 +23,23 @@
   $top-bottom-padding: .7rem;
   $left-right-padding: 1.25rem;
 
+  section {
+    padding: $m*6em 0;
+  }
+  
   .navbar {
-    padding: $m*.7rem 0 $m*.2rem 0;
+    padding: $m*.5rem 0 $m*.1rem 0;
     .navbar-brand {
       font-size: $m*1em;
       padding: $m*0.25em $m*1em;
-      margin: $m*1.25em $m*0.15em;
+      margin: $m*1.1em $m*0.15em;
     }
     .navbar-nav {
       >li {
         > .navbar-link {
           padding: $m*.65em $m*1.25em;
           margin: $m*0.75em $m*0.1em;
-          font-size: $m*.95em;
+          font-size: $m*.85em;
           letter-spacing: $m*0.15em;
         }
       }
@@ -80,14 +84,15 @@
   }
 
   .hero {
-    padding: $m*3em 0;
-    font-size: $m*2.5em;
+    padding: $m*1em 0;
+    font-size: $m*2.15em;
     font-weight: 200;
-    margin-top: $m*1em;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
-// Mobile
+// // Mobile
 // @media (min-width: 0em) {
 //   button.navbar-toggle {
 //     display: block;
@@ -105,10 +110,6 @@
 //   .hero {
 //     padding: 5em 1em 2.0em 1em;
 //   }
-//   // .social-media-list,
-//   // .tagline {
-//   //   display: none;
-//   // }
 //   p.lead {
 //     margin-bottom: 0;
 //   }

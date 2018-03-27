@@ -163,6 +163,14 @@ pre {
   clear: both;
 }
 
+.img-centered {
+  margin: 0 auto;
+}
+
+.bg-light-gray {
+  background-color: $color-gray-lightest;
+}
+
 // RESPONSIVENESSSSS
 /* --------- 0-320px: iPhone 5 ---- */
 @media screen and (max-width: 320px) {

@@ -41,12 +41,34 @@ ul.social-media-list {
 // Navigation bar
 //
 .navbar {
+   @media screen  and (max-width: 767px) {
+    .navbar-collapse {
+      transition: all 0.35s;
+      background: -webkit-gradient(linear, left top, left bottom, 
+        from(rgba(73,169,126,1)),
+          to(rgba(73,169,126,1)), color-stop(0, rgba(80,80,80,1))
+      );
+      // background-color: rgba(73,169,126,1);
+    }
+  }
+  @media screen  and (min-width: 768px) {
+    .navbar-collapse {
+      border-bottom-left-radius: none;
+      border-bottom-right-radius: none;
+      background-color: rgba(73,169,126,0);
+    }
+  }
+
+  &.navbar-default {
+    background: rgba(200,200,200,0);
+  }
+
   border: 0;
   font-family: $body-font-family-alt;
   transition: all 0.2s ease;
-  
+
   &.navbar-shrink {
-    background-color: darken($color-gray-darkest, 10);
+    background-color: darken($color-gray-darker, 10);
     border-color: transparent;
   }
 
@@ -72,10 +94,6 @@ ul.social-media-list {
       color: lighten($color-secondary, 20);
     }
   }
-  // background-color: $color-gray-darkest;
-  // border-bottom: 12px solid lighten($color-tertiary,12);
-  // border-bottom: 3px solid lighten($color-primary,32);
-  // border-bottom: 1px solid darken($color-gray-darker, 10);
 
   .navbar-nav {
     text-align: left;
