@@ -83,9 +83,9 @@ button.navbar-toggle {
   border-radius: 4px;
   transition: all 0.3s ease;
   cursor: pointer;
-  background: $color-secondary;
+  background: $color-red-bright;
   &:hover {
-    background: lighten($color-secondary,15);
+    background: lighten($color-red-bright,15);
     .icon-bar {
       background: $color-gray-lightest;
     }
@@ -231,6 +231,10 @@ header {
     background: rgba(0,0,0,0);
     // display: block;
   }
+}
+
+.video-clip {
+  width: 100%;
 }
 
 section {

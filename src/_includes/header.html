@@ -10,7 +10,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+            <a class="navbar-brand page-scroll" href="{{ "/" | relative_url }}">
+                <img class="site-logo" src="/assets/svg/SKM-lion.svg"
+                onerror="this.onerror=null; this.src='/assets/img/SKM-lion.png'"
+                alt="{{ site.title }}" title="{{ site.title }}"
+                >
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,7 +65,7 @@
     <div class="video-overlay"></div>
     <div class="video-wrapper">
         <video preload="auto" autoplay="true" loop="true" muted playsinline volume="0">
-            <source src="media/times-change.mp4" type="video/mp4" codecs=avc1.42E01E,mp4a.40.2>
+            <source src="assets/vid/times-change.mp4" type="video/mp4" codecs=avc1.42E01E,mp4a.40.2>
         </video>
     </div>
 

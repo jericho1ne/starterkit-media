@@ -16,6 +16,7 @@ $color-blue-lightest: lighten($color-blue, 20);
 
 $color-green: #49C47E;
 $color-red-light: #ff0000;
+$color-red-bright: #f20a79;
 
 $color-gray: #aaa !default;
 $color-gray-light: lighten($color-gray, 10%);
@@ -27,4 +28,6 @@ $color-gray-darkest: darken($color-gray, 55%);
 
 $color-primary: $color-blue-light;
 $color-secondary: $color-green;
-$color-tertiary: $color-red-light;
+// $color-tertiary: $color-red-light;
+$color-tertiary: $color-red-bright;
+
