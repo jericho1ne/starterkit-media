@@ -60,7 +60,8 @@ ul.social-media-list {
   }
 
   &.navbar-default {
-    background: rgba(200,200,200,0);
+    // background: lighten($color-green, 20) !important;
+    background: rgba(73,96,126,0);
   }
 
   border: 0;
@@ -68,7 +69,8 @@ ul.social-media-list {
   transition: all 0.2s ease;
 
   &.navbar-shrink {
-    background-color: darken($color-gray-darker, 10);
+    // background: darken($color-green, 38) !important;
+    background-color: lighten($color-gray-darker, 2);
     border-color: transparent;
   }
 
