@@ -15,15 +15,17 @@ $phone 			= $_POST['phone'];
 $message 		= $_POST['message'];
 
 // Create the email and send the message
-$to = 'mihai.peteu@gmail.com'; 
+$to = 'pcline71@gmail.com'; 
 
-$email_subject = "Website Contact Form:  $name";
+$email_subject = "StarterKit Media Contact Form – $name";
 
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+$email_body = 
+	"You have received a new message from your website contact form.\n\n\n\n".
+	"Name: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 
 // This is the email address the generated message will be from. 
 // We recommend using something like noreply@yourdomain.com.
-$headers = "From: noreply@yourdomain.com\n"; 
+$headers = "From: noreply@starterkitmedia.com\n"; 
 
 $headers .= "Reply-To: $email_address";
 
