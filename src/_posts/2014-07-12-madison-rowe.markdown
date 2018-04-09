@@ -3,8 +3,7 @@ title: Madison Rowe
 subtitle: Studio recording, Mix, Master, Bass guitar
 category: studio-recording
 
-thumb: placeholder-thumbnail.jpg
-image: placeholder-image.jpg
+image: placeholder
 
 description: NEED SOUNDCLOUD LINK.
 

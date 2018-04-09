@@ -3,8 +3,7 @@ title: Sandra Maguir
 subtitle: Music Video
 category: video-production
 
-thumb: placeholder-thumbnail.jpg
-image: placeholder-image.jpg
+image: placeholder
 
 description: StarterKit Media produced, directed, shot and edited Sandra's (name here) music video. Shoot locations - Malibu, Echo Park.
 

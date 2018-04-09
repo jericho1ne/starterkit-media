@@ -3,8 +3,7 @@ title: Applesauce
 subtitle: Studio Recording, Mix, Master, Songwriting
 category: studio-recording
 
-thumb: applesauce-thumb.jpg
-image: applesauce.jpg
+image: applesauce
 vimeo_id: 154820470 
 
 description: Produced by Jesse Cudworth and Bonnie Marshall Bojorquez.
