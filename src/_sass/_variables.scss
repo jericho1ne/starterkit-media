@@ -27,7 +27,7 @@ $color-gray-darker: darken($color-gray, 30%);
 $color-gray-darkest: darken($color-gray, 55%);
 
 $color-primary: $color-blue-light;
-$color-secondary: $color-green;
+$color-secondary: lighten($color-green, 20%);
 // $color-tertiary: $color-red-light;
 $color-tertiary: $color-red-bright;
 

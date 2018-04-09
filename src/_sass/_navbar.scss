@@ -70,7 +70,7 @@ ul.social-media-list {
 
   &.navbar-shrink {
     // background: darken($color-green, 38) !important;
-    background-color: lighten($color-gray-darker, 2);
+    background-color: darken($color-gray-darker, 10);
     border-color: transparent;
   }
 
@@ -129,6 +129,10 @@ ul.social-media-list {
     }
   }
 
+  img.site-logo {
+    max-width: none;
+  }
+  
   .site-logo-sticky {
     cursor: pointer;
     position: fixed;

@@ -1,0 +1,108 @@
+
+$col-width: 420px;
+
+.portfolio-modal {
+  z-index: 9999;
+
+  img {
+    margin-bottom: 1em;
+  }
+
+  .modal-content {
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 1000;
+
+    &:hover {
+      opacity: .3;
+    }
+  }
+}
+
+#portfolio {
+  .portfolio-item {
+    right: 0;
+    margin: 0 0 1.5em;
+    padding: .4em;
+
+    img {
+      width: $col-width;
+    }
+    .portfolio-caption {
+      margin: 0 auto;
+      padding: .4em;
+      max-width: $col-width;
+      height: 136px;
+      text-align: center;
+      background-color: #fff;
+    }
+  
+    .portfolio-link {
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      max-width: $col-width;
+
+      .portfolio-hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        -webkit-transition: all ease .5s;
+        -moz-transition: all ease .5s;
+        transition: all ease .5s;
+        background: rgba(200,200,200,.7); 
+        
+        .portfolio-hover-content {
+          position: absolute;
+          top: 50%;
+          width: 100%;
+          margin-top: -1em;
+          text-align: center;
+          font-size: 24px;
+          color: $color-tertiary;
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

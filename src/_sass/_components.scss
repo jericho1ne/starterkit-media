@@ -150,7 +150,7 @@ header {
   }
   .banner-top, .banner-cta {
     position: absolute;
-    width: 85%;
+    width: auto;
     text-align: left;
     margin: 0 auto;
     z-index: 101;
@@ -206,7 +206,7 @@ header {
   padding: 0px;
   top: 0;
   left: 0;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../assets/img/header-bg.jpg');
   background-position: center center;
   background-repeat: none;
   background-size: cover;

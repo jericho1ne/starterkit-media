@@ -10,22 +10,31 @@ description: "Visionary audio and video production for aspiring artists. Certifi
 # Team names, titles and social links
 people:
 - name: Paul Cline
-  pic: paul-cline
+  pic: paul-cline-aka-brother-peace-cee
   position: Executive Producer
   social:
-    - title: twitter
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/paul-cline-a5a10457/
     - title: facebook
-      url: #
+      url: https://www.facebook.com/unknownendeavors/
 
-- name: Thomas Iannucci
-  pic: thomas-iannucci
-  position: Songwriter
+- name: Brandon Zeolla
+  pic: brandon-zeolla
+  position: Video Production
   social:
-    - title: twitter
-      url: https://twitter.com/theilltalian
+    - title: instagram
+      url: https://www.instagram.com/mr_doctor_z
     - title: facebook
-      url: https://www.facebook.com/pg/theilltalian/
+      url: https://www.facebook.com/brandon.zeolla
+
+- name: Brent Boberg
+  pic: brent-boberg
+  position: Mixer, Songwriter
+  social:
+    - title: instagram
+      url: https://www.instagram.com/brentboberg/
+    - title: facebook
+      url: https://www.facebook.com/brent.boberg
 
 - name: Raku Media
   pic: raku-media
@@ -39,12 +48,15 @@ people:
 # Social network handles 
 # (eg: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: instagram
+    url: https://www.instagram.com/unknown_endeavors/
+  - title: vimeo
+    url: https://vimeo.com/unknownendeavors
   - title: twitter
     url: https://twitter.com/unknownendvrs
   - title: facebook
     url: https://www.facebook.com/pg/unknownendeavors/
-  - title: linkedin
-    url: https://www.linkedin.com/in/paul-cline-a5a10457/
+
 
 # Postal address (add as many lines as necessary)
 address:

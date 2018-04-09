@@ -1,3 +1,14 @@
+.team-member {
+    margin-bottom: -0.15em;
+
+    img {
+        width: 320px;
+        height: 320px;
+        border: 6px solid $color-secondary;
+        box-shadow: 0.35rem 0.15rem 0.25rem rgba(80, 80, 80, 0.5);
+    }
+}
+
 .timeline {
     position: relative;
     padding: 0;
@@ -117,7 +128,7 @@
     }
 
     .timeline>li {
-        margin-bottom: 100px;
+        margin-bottom: .75em;
         min-height: 100px;
     }
 
@@ -150,7 +161,7 @@
 
 @media(min-width:992px) {
     .timeline>li {
-        min-height: 150px;
+        min-height: 260px;
     }
 
     .timeline>li .timeline-panel {
@@ -158,8 +169,8 @@
     }
 
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
+        width: 260px;
+        height: 260px;
         margin-left: -75px;
     }
 
@@ -176,7 +187,7 @@
 
 @media(min-width:1200px) {
     .timeline>li {
-        min-height: 170px;
+        min-height: 270px;
     }
 
     .timeline>li .timeline-panel {
@@ -184,8 +195,8 @@
     }
 
     .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
+        width: 270px;
+        height: 270px;
         margin-left: -85px;
     }
 
