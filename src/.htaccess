@@ -1,5 +1,6 @@
 ModPagespeed off
 Header set Access-Control-Allow-Origin "*"
+Header unset Accept-Ranges
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteBase /

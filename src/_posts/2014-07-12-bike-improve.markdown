@@ -3,7 +3,7 @@ title: Bike Improve
 subtitle: Promotional Video
 category: video-production
 
-image: placeholder
+image: bike-improve
 
 description: NEED description
 
