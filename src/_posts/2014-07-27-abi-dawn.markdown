@@ -1,0 +1,14 @@
+---
+title: Abi Dawn - Shredded Rx
+subtitle: Promotional Video
+category: video-production
+
+image: abi-dawn-shredded-rx
+
+vimeo_id: 121648826
+
+description: The story of Abi Dawn journey to becoming a personal trainer.
+
+layout: default
+date: 2014-07-18
+---

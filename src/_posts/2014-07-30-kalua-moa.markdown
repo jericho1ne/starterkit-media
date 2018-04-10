@@ -1,0 +1,13 @@
+---
+title: Kalua Moa
+subtitle: Engineer, Record, Mix, Master
+category: studio-recording
+
+image: kalua-moa
+vimeo_id: 44713958
+
+description: NEED description of the group.  Also NEED 3 x Soundcloud links ("Keep the Fire Burning" could be one).
+
+layout: default
+date: 2014-07-18
+---

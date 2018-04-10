@@ -1,0 +1,12 @@
+---
+title: Cynergy Cycles
+subtitle: Promotional Video
+category: video-production
+
+image: cynergy-cycles
+
+description: NEED description and video clip
+
+layout: default
+date: 2014-07-18
+---
