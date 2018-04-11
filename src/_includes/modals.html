@@ -20,19 +20,40 @@
                 <h2>{{ post.subtitle }}</h2>
                 <hr class="star-primary">
                 
-                <p>{{ post.description }}</p>
-                <p>
+                {% if post.vimeo_id %}
+                    <p>{{ post.description }}</p>
+                {% endif %}
+                
+                <div class="row">
                     {% if post.vimeo_id %}
-                        <iframe class="video-clip" width="720" height="360"
-                        src="https://player.vimeo.com/video/{{ post.vimeo_id }}"  
-                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <div class="col-xs-12">
+                            <iframe class="video-clip" width="720" height="360"
+                            src="https://player.vimeo.com/video/{{ post.vimeo_id }}"  
+                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
                     {% endif %}
                     {% if post.youtube_id %}
-                        <iframe class="video-clip" width="720" height="360" 
-                        src="https://www.youtube.com/embed/{{ post.youtube_id }}" 
-                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    {% endif %}
-                </p>          
+                        <div class="col-xs-12">
+                            <iframe class="video-clip" width="720" height="360" 
+                            src="https://www.youtube.com/embed/{{ post.youtube_id }}" 
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </p>   
+                {% endif %}
+                </div>
+                
+                <div class="row">
+                {% for track in post.soundcloud_links %}
+                    <div class="col-sm-6 soundcloud">
+                        <h3>{{ track.name }}</h3>
+                        <iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay" 
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ track.id }}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    </div> 
+                {% endfor %}
+                </div>
+
+                
+
             </div>
 
         </div>

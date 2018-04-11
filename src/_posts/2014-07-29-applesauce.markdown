@@ -1,6 +1,6 @@
 ---
 title: Applesauce
-subtitle: Studio Recording, Mix, Master, Songwriting
+subtitle: Lyrics, Record/Mix/Master
 category: studio-recording
 
 image: applesauce

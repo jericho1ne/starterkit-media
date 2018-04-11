@@ -116,7 +116,8 @@ $close-button-parent: 64px;
       margin: 0 auto;
       padding: .4em;
       max-width: $col-width;
-      height: 126px;
+      min-height: 100px;
+      height: auto;
       text-align: center;
       background-color: #fff;
     }

@@ -125,6 +125,45 @@ textarea.form-control {
   }
 }
 
+// Soundcloud and Video embeds
+.soundcloud {
+  iframe {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+}
+
+.video-clip {
+  width: 100%;
+  iframe {
+    width: 100%;
+    border: 1px solid black;
+  } 
+}
+
+// Round images (About team members, Timeline photos)
+.team-member {
+    margin-bottom: 3.5em;
+    text-align: center;
+    
+    ul.social-buttons li a {
+      font-size: 1.3em;
+    }
+    h4 {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    p {
+      margin-bottom: 0.15em;
+    }
+
+    img {
+        margin: 0 auto;
+        // border: 1px solid $color-gray-dark;
+        box-shadow: 0.15rem 0.25rem 0.25rem rgba(80, 80, 80, 0.4);
+    }
+}
+
 // Landing page text
 header {
   z-index: 10;
@@ -231,10 +270,6 @@ header {
     background: rgba(0,0,0,0);
     // display: block;
   }
-}
-
-.video-clip {
-  width: 100%;
 }
 
 section {
