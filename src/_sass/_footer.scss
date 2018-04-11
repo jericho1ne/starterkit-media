@@ -14,16 +14,19 @@ footer {
     margin: -12px 0 -7px -3px;
   }
 
-  span.copyright {
+  .copyright {
     text-transform: uppercase;
     text-transform: none;
-    line-height: 40px;
+    line-height: 1em;
   }
-  ul.quicklinks {
+  .quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    line-height: 20px;
+    padding: .5em 0;
+    li {
+      line-height: 1em;
+    }
   }
 }
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:700,900|Assistant:700|Biryani:700,800,900|Josefin+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:700,900|Assistant:300,700|Biryani:700,800,900|Josefin+Sans:300,400,600,700');
 
 //
 // Fonts and related mixins
@@ -46,7 +46,7 @@ h2 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $header-font-family-alt;
+  font-family: $header-font-family;
 }
 
 h3, h4, h5, h6 {
@@ -86,7 +86,7 @@ header {
 }
 
 a:not(.navbar-link):not(.navbar-brand):not(.btn) {
-  color: $color-primary !important;
+  color: $color-tertiary !important;
   font-weight: 500;
   &:visited {
     color: $color-primary !important;

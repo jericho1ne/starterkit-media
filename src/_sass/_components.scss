@@ -1,4 +1,4 @@
-//
+Assistant//
 // Buttons, Lists, and other various ui elements
 //
 
@@ -17,7 +17,7 @@
   border-radius: 0.25em;
 
   &:hover {
-    background-color: $color-secondary;
+    background-color: $color-tertiary;
   }
 }
 .btn-primary {
@@ -145,7 +145,7 @@ header {
     border: 1px solid #fff;
     cursor: pointer;
     &:hover, &:active {
-      background-color: lighten($color-secondary, 5);
+      background-color: rgba(0, 0, 0, 0.5);
     }
   }
   .banner-top, .banner-cta {
@@ -254,19 +254,24 @@ ul.social-buttons {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 1.5em;
+    line-height: 2em;
     outline: 0;
     color: #fff;
-    background-color: $color-gray-lightest;
+    background-color: $color-tertiary;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
-    transition: all .3s;
+    transition: all .2s;
+
+    // Icon Color
+    i {
+      color: #fff !important;
+    }
 
     &:hover,
     &:focus,
     &:active {
-      background-color: $color-gray-lighter;
+      background-color: lighten($color-tertiary, 25);
     }
   }
 }

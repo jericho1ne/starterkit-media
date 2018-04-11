@@ -67,6 +67,9 @@
   hr {
       margin: $m * 2rem auto;
   }
+  .modal-header {
+    height: $m * 45%;
+  }
   body {
     font-size: 1.6em * $m;
   }
