@@ -67,15 +67,36 @@
   hr {
       margin: $m * 2rem auto;
   }
+  body {
+    font-size: 1.6em * $m;
+  }
   hr.spacer {
       margin: $m*10px auto;
   }
-  h1 { margin: $m*32px 0; }
-  h2 { margin: $m*2.25rem 0 $m*.5rem 0; }
-  h3 { margin: $m*1.75rem 0 $m*.5rem 0; }
-  h4 { margin: $m*1.5rem 0 $m*.5rem 0; }
-  h5 { margin: $m*1rem 0 $m*.25rem 0; }
-  h6 { margin: $m*10px 0; }
+  h1 { 
+    font-size: 2.75em * $m;
+    margin: $m*0.5rem 0;
+  }
+  h2 { 
+    font-size: 2.1em * $m;
+    margin: $m*2.25rem 0 $m*.5rem 0;
+  }
+  h3 { 
+    font-size: 1.6em * $m;
+    margin: $m*1.75rem 0 $m*.5rem 0;
+  }
+  h4 { 
+    font-size: 1.4em * $m;
+    margin: $m*1.5rem 0 $m*.5rem 0;
+  }
+  h5 { 
+    font-size: 1.2em * $m;
+    margin: $m*1rem 0 $m*.25rem 0;
+  }
+  h6 { 
+    font-size: 1em * $m;
+    margin: $m*10px 0;
+  }
 
   p.lead { font-size: $m*1.12em; }
   // No space above sutitle to keep compact
@@ -102,7 +123,8 @@
 
   .hero {
     padding: $m*1em 0;
-    font-size: $m*2.15em;
+    font-size: $m*2.5em;
+    line-height: $m*1.5em;
     font-weight: 200;
     margin-top: auto;
     margin-bottom: auto;

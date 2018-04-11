@@ -2,44 +2,48 @@
  {% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="client-{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+        
+        <div class="close-modal" data-dismiss="modal">
             <div class="lr">
-                <div class="rl">
-                </div>
+                <div class="rl"></div>
             </div>
         </div>
-            <div class="container">
+        
+        <div class="modal-content">
+
+            <div class="modal-header" 
+                style="background-image:url('assets/img/portfolio/{{ post.image }}.jpg')
+            ">
+                <div class=""><h1>{{ post.title }}</h1></div>
+            </div>
+            <div class="modal-body">
+                <h2>{{ post.subtitle }}</h2>
+                <hr class="star-primary">
+                
+                <p>{{ post.description }}</p>
+                <p>
+                    {% if post.vimeo_id %}
+                        <iframe class="video-clip" width="720" height="360"
+                        src="https://player.vimeo.com/video/{{ post.vimeo_id }}"  
+                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    {% endif %}
+                    {% if post.youtube_id %}
+                        <iframe class="video-clip" width="720" height="360" 
+                        src="https://www.youtube.com/embed/{{ post.youtube_id }}" 
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    {% endif %}
+                </p>          
+            </div>
+
+        </div>
+
+
+
+<!--             <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-xs-12 col-sm-offset-1">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="assets/img/portfolio/{{ post.image }}.jpg" class="img-responsive img-centered" alt="{{ post.title }} - {{ post.subtitle }}">
-                            <p>{{ post.description }}</p>
-                            <p>
-                                {% if post.vimeo_id %}
-                                    <iframe class="video-clip" width="720" height="360"
-                                    src="https://player.vimeo.com/video/{{ post.vimeo_id }}"  
-                                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                {% endif %}
-                                {% if post.youtube_id %}
-                                    <iframe class="video-clip" width="720" height="360" 
-                                    src="https://www.youtube.com/embed/{{ post.youtube_id }}" 
-                                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                {% endif %}
-                            </p>
-                            
-<!--                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                            </ul> -->
-                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
     </div>
 {% endfor %}
