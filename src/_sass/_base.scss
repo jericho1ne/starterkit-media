@@ -184,21 +184,21 @@ pre {
 }
 /* --------- 321-546px: iPhone 6 / Plus --------------- */
 @media screen and (min-width: 321px) and (max-width: 546px) {
-  @include build-responsive-page(0.95);
+  @include build-responsive-page(0.9);
   // @include slim-navbar-brand();
 }
 /* --------- 547-767px -------------------------------- */
 @media screen and (min-width: 547px)  and (max-width: 767px) {
-  @include build-responsive-page(1.05);
+  @include build-responsive-page(1.0);
   // @include slim-navbar-brand();
 }
 /* --------- 768px - 950px ---------------------------- */
 @media screen and (min-width: 768px) and (max-width: 950px) {
-  @include build-responsive-page(1.1);
+  @include build-responsive-page(1.05);
 }
 /* --------- 950px - 1200px ----------------------------- */
 @media screen and (min-width: 951px) and (max-width: 1200px) {
-  @include build-responsive-page(1.15);
+  @include build-responsive-page(1.1);
 }
 /* --------- 1201px - 1600px ------------------------------ */
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
@@ -206,5 +206,5 @@ pre {
 }
 /* --------- 1601px + ----------- */
 @media screen and (min-width: 1601px) and (max-width: 10000px) {
-  @include build-responsive-page(1.35);
+  @include build-responsive-page(1.25);
 }
