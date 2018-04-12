@@ -5,19 +5,20 @@
 
     img {
         margin: 0 auto;
-        border: 1px solid $color-gray-light;
+        border: 1px solid $color-tertiary;
     }
 }
 
+// Timeline vertical line
 .timeline:before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    background-color: #f1f1f1;
+    width: 1px;
+    margin-left: .15em;
+    background-color: $color-tertiary;
 }
 
 .timeline>li {
