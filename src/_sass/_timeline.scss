@@ -2,6 +2,11 @@
     position: relative;
     padding: 0;
     list-style: none;
+
+    img {
+        margin: 0 auto;
+        border: 1px solid $color-gray-light;
+    }
 }
 
 .timeline:before {

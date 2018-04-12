@@ -28,7 +28,6 @@ $close-button-parent: 64px;
       background-position: center center;
       background-repeat: no-repeat;
       background-color: $color-gray-darkest;
-      // height: 100%;
 
       h1 {
         position: absolute;
@@ -116,7 +115,7 @@ $close-button-parent: 64px;
       margin: 0 auto;
       padding: .4em;
       max-width: $col-width;
-      min-height: 100px;
+      min-height: 140px;
       height: auto;
       text-align: center;
       background-color: #fff;

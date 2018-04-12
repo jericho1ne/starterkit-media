@@ -6,7 +6,7 @@ category: studio-recording
 image: applesauce
 vimeo_id: 154820470 
 
-soundcloud_links:
+soundcloud:
 - name: D-Dub
   id: 265408592
 

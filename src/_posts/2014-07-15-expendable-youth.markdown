@@ -1,6 +1,6 @@
 ---
 title: Expendable Youth
-subtitle: Lead vocals, Music Video, Mix/Master/Track
+subtitle: Lead vocals, Music Video, Mix, Master, Track
 category: studio-recording
 
 image: expendable-youth

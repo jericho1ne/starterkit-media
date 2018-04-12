@@ -8,7 +8,7 @@ vimeo_id: 44713958
 
 description: Conscious roots reggae/dub group hailing from Kauai.  Band consists of Kyrandt Tamagawa (Bass), Chase Bohn (Guitar/Vocals), and Liam Mackenzie (Drums).
 
-soundcloud_links:
+soundcloud:
 - name: Keep the Fire Burning
   id: 175249671
 - name: Ransack and Perish
