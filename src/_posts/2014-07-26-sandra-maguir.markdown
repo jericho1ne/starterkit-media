@@ -2,6 +2,7 @@
 title: Sandra Maguir
 subtitle: Music Video
 category: video-production
+permalink: sandra-maguir/
 
 image: sandra-maguir
 

@@ -1,11 +1,29 @@
-url: https://lowtideannex.com/demo/skm
-baseurl: ""
 
-# Site settings
+#
+#
+# https://jekyllrb.com/docs/configuration/
+#
+#
+url: https://starterkitmedia.com/
+baseurl: ''
+
+
+#
+# Meta tags and User-facing descriptions
+#
 title: StarterKit Media
 email: connect@starterkitmedia.com
 description: "Visionary audio and video production for aspiring artists. Certified Avid + Pro Tools. sound production, studio time, budgeting."
 
+# Blog-related
+show_excerpts: true
+
+# Directory / Files - what does this do?
+# defaults:
+#   - scope:
+#       path: "assets/img"
+#     values:
+#       image: true
 
 # Team names, titles and social links
 people:

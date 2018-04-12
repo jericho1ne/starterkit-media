@@ -2,6 +2,7 @@
 title: Madison / Paradise Found
 subtitle: Engineer, Mix, Master, Bass guitar
 category: studio-recording
+permalink: madison-roe-paradise-found/
 
 image: madison
 

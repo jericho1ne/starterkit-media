@@ -2,6 +2,7 @@
 title: Applesauce
 subtitle: Lyrics, Record/Mix/Master
 category: studio-recording
+permalink: applesauce/
 
 image: applesauce
 vimeo_id: 154820470 

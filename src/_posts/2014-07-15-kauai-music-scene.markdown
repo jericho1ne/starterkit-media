@@ -2,6 +2,7 @@
 title: Kauai Music Scene
 subtitle: Documentary Film
 category: video-production
+permalink: kauai-music-scene/
 
 image: kauai-music-scene-documentary
 

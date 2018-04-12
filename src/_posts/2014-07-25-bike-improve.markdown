@@ -2,6 +2,7 @@
 title: Bike Improve
 subtitle: Promotional Video
 category: video-production
+permalink: bike-improve/
 
 image: bike-improve
 
