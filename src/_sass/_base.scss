@@ -30,12 +30,12 @@ main {
 }
 
 hr {
-  opacity: 0.5;
+  opacity: 0.6;
+}
 
-  &.spacer {
-    opacity: 0;
-    padding: 0.3rem 0;
-  }
+.spacer {
+  opacity: 0;
+  padding: 1.5rem 0;
 }
 
 // Images

@@ -1,0 +1,17 @@
+---
+title: Madison / Paradise Found
+subtitle: Engineer, Mix, Master, Bass guitar
+category: studio-recording
+
+image: madison
+
+description: Madison started performing professionally at 13, and by 16 years of age, her music was broadcast on island radio stations on a daily basis. Madison has recently relocated to Los Angeles, California in order to expand her career.
+
+soundcloud: 
+- name: You Are the One
+  id: 205341643
+
+info: http://www.kauaimusicscene.com/a/madison-paradise-found
+layout: default
+date: 2014-07-18
+---
