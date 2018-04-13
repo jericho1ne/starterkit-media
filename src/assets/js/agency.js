@@ -6,13 +6,13 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
+  $('a.page-scroll').bind('click', function(event) {
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top
+    }, 1500, 'easeInOutExpo');
+    event.preventDefault();
+  });
 });
 
 // Highlight the top nav as scrolling occurs
@@ -34,4 +34,25 @@ $('div.modal').on('show.bs.modal', function() {
 			$(modal).modal('hide');
 		}
 	}
+});
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  $(window).scroll(function() {
+    var windowTop = $(this).scrollTop();
+    var windowBottom = windowTop + $(this).innerHeight();
+    var browserHeight = $(window).height();
+    var opacity = 1.1 - (windowTop / browserHeight);
+
+    if (opacity > 1) {
+      opacity = 1;
+    }
+
+    if (windowTop > browserHeight) {
+      $('.video-wrapper').css('display', 'none');
+    } else {
+      $('.video-wrapper').css('display', 'block');
+    }
+    $('.video-wrapper').css('opacity', opacity);
+  }).scroll();
 });

@@ -28,8 +28,9 @@ show_excerpts: true
 # Team names, titles and social links
 people:
 - name: Paul Cline
-  pic: paul-cline-aka-brother-peace-cee
+  image: paul-cline-aka-brother-peace-cee
   position: Executive Producer
+  bio: Avid and Final Cut Pro-certified.
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/paul-cline-a5a10457/
@@ -37,8 +38,9 @@ people:
       url: https://www.facebook.com/unknownendeavors/
 
 - name: Brandon Zeolla
-  pic: brandon-zeolla
+  image: brandon-zeolla
   position: Video Production
+  bio:
   social:
     - title: instagram
       url: https://www.instagram.com/mr_doctor_z
@@ -46,8 +48,9 @@ people:
       url: https://www.facebook.com/brandon.zeolla
 
 - name: Brent Boberg
-  pic: brent-boberg
+  image: brent-boberg
   position: Mixer, Songwriter
+  bio:
   social:
     - title: instagram
       url: https://www.instagram.com/brentboberg/
@@ -55,15 +58,16 @@ people:
       url: https://www.facebook.com/brent.boberg
 
 - name: Raku Media
-  pic: raku-media
+  image: raku-media
   position: Media Production
+  bio:
   social:
     - title: twitter
       url: https://twitter.com/RakuMediaLLC
     - title: facebook
       url: https://www.facebook.com/RakuMedia
 
-# Social network handles 
+# Social network handles
 # (eg: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
