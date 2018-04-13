@@ -4,7 +4,9 @@ layout: client-detail
 title: Kauai Music Scene
 subtitle: Documentary Film
 category: video-production
-permalink: kauai-music-scene
+permalink: kauai-music-scene/
+image: kauai-music-scene
+
 
 vimeo_id: 121648826
 

@@ -4,7 +4,9 @@ layout: client-detail
 title: Cynergy Cycles
 subtitle: Promotional Video
 category: video-production
-permalink: cynergy-cycles
+permalink: cynergy-cycles/
+image: cynergy-cycles
+
 
 description: NEED description and video clip
 

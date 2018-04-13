@@ -4,7 +4,9 @@ layout: client-detail
 title: Abi Dawn - Shredded Rx
 subtitle: Promotional Video
 category: video-production
-permalink:  abi-dawn-shredded-rx
+permalink: abi-dawn-shredded-rx/
+image: abi-dawn-shredded-rx
+
 
 # vimeo_id:
 

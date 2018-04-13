@@ -4,7 +4,8 @@ layout: client-detail
 title: Kalua Moa
 subtitle: Engineer, Record, Mix, Master
 category: studio-recording
-permalink: kalua-moa
+permalink: kalua-moa/
+image: kalua-moa
 
 vimeo_id: 44713958
 
