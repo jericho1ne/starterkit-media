@@ -10,7 +10,7 @@
     margin-left: 0.5em !important;
   }
   .navbar-brand {
-    background: url('../assets/svg/SKM-small.svg');
+    background: url('../svg/SKM-small.svg');
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 60px;
@@ -43,7 +43,7 @@
   section {
     padding: $m*6em 0;
   }
-  
+
   // Services page
   .service-caption {
     min-height: $m * 60px;
@@ -75,7 +75,7 @@
 
 
   iframe.video-clip {
-    height: $m * 480px !important;
+    // height: $m * 480px !important;
   }
 
   // Specific classes
@@ -93,27 +93,27 @@
   hr.spacer {
       margin: $m*10px auto;
   }
-  h1 { 
+  h1 {
     font-size: 2.75em * $m;
     margin: $m*0.5rem 0;
   }
-  h2 { 
+  h2 {
     font-size: 2.1em * $m;
     margin: $m*2.25rem 0 $m*.5rem 0;
   }
-  h3 { 
+  h3 {
     font-size: 1.6em * $m;
     margin: $m*1.75rem 0 $m*.5rem 0;
   }
-  h4 { 
+  h4 {
     font-size: 1.3em * $m;
     margin: $m*1.5rem 0 $m*.5rem 0;
   }
-  h5 { 
+  h5 {
     font-size: 1.2em * $m;
     margin: $m*1rem 0 $m*.25rem 0;
   }
-  h6 { 
+  h6 {
     font-size: 1em * $m;
     margin: $m*10px 0;
   }
@@ -152,32 +152,27 @@
 // Mobile
 @media (min-width: 0px) and (max-width: 519px) {
   @include slim-navbar-brand();
-  // iframe.video-clip { height: 480px !important; }
   // ul.nav { border: 1px solid black; }
 }
 
 // Laptop
 @media (min-width: 520px) and (max-width: 767px) {
   @include slim-navbar-brand();
-  // iframe.video-clip { height: 500px !important; }
   // ul.nav { border: 1px solid purple; }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   @include slim-navbar-brand();
-  // iframe.video-clip { height: 720px !important; }
   // ul.nav { border: 1px solid red; }
 }
 
 @media (min-width: 992px) and (max-width: 1600px) {
   @include regular-navbar-brand();
-  // iframe.video-clip { height: 960px !important; }
   // ul.nav { border: 1px solid green; }
 }
 
 @media (min-width: 1601px) {
   @include regular-navbar-brand();
-  // iframe.video-clip { height: 1080px !important; }
   // ul.nav { border: 1px solid white; }
 }
 

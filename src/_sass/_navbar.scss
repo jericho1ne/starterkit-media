@@ -41,11 +41,11 @@ ul.social-media-list {
 // Navigation bar
 //
 .navbar {
-   @media screen  and (max-width: 767px) {
+  @media screen  and (max-width: 767px) {
     .navbar-collapse {
       border: 0;
       transition: all 0.35s;
-      background: -webkit-gradient(linear, left top, left bottom, 
+      background: -webkit-gradient(linear, left top, left bottom,
         from(rgba(73,169,126,1)),
           to(rgba(73,169,126,1)), color-stop(0, rgba(80,80,80,1))
       );
@@ -68,7 +68,7 @@ ul.social-media-list {
   border: 0;
   font-family: $body-font-family-alt;
   transition: all 0.2s ease;
-  
+
   // BG COLOR UPON SCROLL
   &.navbar-shrink {
     // background: darken($color-green, 38) !important;
@@ -134,7 +134,7 @@ ul.social-media-list {
   img.site-logo {
     max-width: none;
   }
-  
+
   .site-logo-sticky {
     cursor: pointer;
     position: fixed;

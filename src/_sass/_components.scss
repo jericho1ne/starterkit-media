@@ -78,12 +78,19 @@ textarea.form-control {
   background: #fff;
 }
 button.navbar-toggle {
-  height: 40px;
-  border:0;
+  height: 46px;
+  width: 46px;
+  border: 0;
+  padding: 12px 0;
   border-radius: 4px;
   transition: all 0.3s ease;
   cursor: pointer;
   background: $color-red-bright;
+
+  i {
+    font-size: 1.5em !important;
+  }
+
   &:hover {
     background: lighten($color-red-bright,15);
     .icon-bar {
@@ -128,7 +135,7 @@ textarea.form-control {
 // Soundcloud and Video embeds
 .soundcloud {
   padding: 1em 4em 0 3em;
-  
+
   iframe {
     border: 1px solid black;
     border-radius: 10px;
@@ -140,14 +147,14 @@ textarea.form-control {
   iframe {
     width: 100%;
     border: 1px solid black;
-  } 
+  }
 }
 
 // Round images (About team members, Timeline photos)
 .team-member {
     margin-bottom: 3.5em;
     text-align: center;
-    
+
     h4 {
         margin-top: 15px;
         margin-bottom: 0;
@@ -195,7 +202,7 @@ header {
     z-index: 101;
     // top: 20%;
   }
-  .banner-top { 
+  .banner-top {
     top: 20%;
   }
   .banner-cta {
@@ -205,7 +212,7 @@ header {
   }
 }
 
-// 
+//
 .intro-text {
   z-index: 10 !important;
   width: 100%;
@@ -224,13 +231,13 @@ header {
 
 .video-overlay {
   padding-bottom: 0px !important;
-  background: -webkit-gradient(linear, left top, left bottom, 
+  background: -webkit-gradient(linear, left top, left bottom,
       from(rgba(100,100,100,0)),
       to(rgba(0,0,0,0.4)), color-stop(0, rgba(200,100,100,0.6))
   );
 
   // background-color: darken($color-gray-darkest, 10);
-  opacity: 1; 
+  opacity: 1;
   min-width: 100%;
   min-height: 100vh;
   width: auto;
@@ -257,9 +264,9 @@ header {
 
   video {
     position: fixed;
-    top: 50%; left: 50%; 
+    top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    
+
     min-width: 100%;
     min-height: 100%;
 
@@ -289,8 +296,8 @@ ul.social-buttons {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    font-size: 1.3em !important;
-    line-height: 2em;
+    font-size: 24px !important;
+    padding: 8px;
     outline: 0;
     color: #fff;
     background-color: $color-tertiary;

@@ -1,11 +1,12 @@
 ---
+layout: client-detail
+
 title: Applesauce
 subtitle: Lyrics, Record/Mix/Master
 category: studio-recording
-permalink: applesauce/
+permalink: applesauce
 
-image: applesauce
-vimeo_id: 154820470 
+vimeo_id: 154820470
 
 soundcloud:
 - name: D-Dub
@@ -13,6 +14,5 @@ soundcloud:
 
 description: Produced by Jesse Cudworth and Bonnie Marshall Bojorquez.
 
-layout: default
 date: 2014-07-18
 ---

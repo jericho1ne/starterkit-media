@@ -55,20 +55,24 @@ h3, h4, h5, h6 {
 
 
 .text-primary {
-    color: lighten($color-tertiary, 2);
+  color: lighten($color-tertiary, 2);
+}
+
+.text-white {
+  color:  #fff;
 }
 
 section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 1.5em;
+  margin-top: 0;
+  margin-bottom: 1.5em;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-size: 1.5em;
-    font-weight: 200;
-    letter-spacing: 0.015em;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 0.015em;
 }
 
 p {
