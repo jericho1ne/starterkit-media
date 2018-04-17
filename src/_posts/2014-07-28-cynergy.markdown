@@ -2,7 +2,7 @@
 layout: client-detail
 
 title: Cynergy Cycles
-subtitle: Promotional Video Production
+subtitle: Promotional Video
 category: video-production
 permalink: cynergy-cycles/
 image: cynergy-cycles

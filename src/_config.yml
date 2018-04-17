@@ -7,6 +7,8 @@
 url: https://starterkitmedia.com/
 baseurl: ''
 
+# Custom vars
+#google_analytics: UA-
 
 #
 # Meta tags and User-facing descriptions
@@ -82,8 +84,14 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Los Angeles, CA 90210
+#  - line: Los Angeles, CA 90210
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate

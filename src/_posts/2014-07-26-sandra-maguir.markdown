@@ -2,7 +2,7 @@
 layout: client-detail
 
 title: Sandra Maguir
-subtitle: Music Video Production
+subtitle: Music Video
 category: video-production
 permalink: sandra-maguir/
 image: sandra-maguir
