@@ -116,7 +116,8 @@ textarea.form-control {
 
 // Soundcloud and Video embeds
 .soundcloud {
-  padding: 1.25em 2em;
+  // padding: 1em 2em;
+  margin: 1em 0 .7em 0;
 
   iframe {
     border: 1px solid #ccc;

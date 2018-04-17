@@ -31,50 +31,19 @@
           </div>
         </div>
         <!-- ITUNES STORE -->
+        {% if page.itunes_album %}
         <div class="row">
-          <div class="col-sm-12 text-center">
+          <div class="col-sm-12">
             <a href="{{ page.itunes_album }}?mt=1&app=music&ls=1"
             style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/text-lockups/en-us/standard-black.svg) no-repeat;width:252px;height:54px;"></a>
-            <hr class="spacer">
           </div>
         </div>
+        {% endif %}
       </div>
       <!-- /CONTAINER -->
 
       <!-- CONTAINER -->
-      <div class="container-fluid borderless">
-
-        <div class="row">
-          <!-- VIMEO -->
-          {% if page.vimeo_id %}
-            <div class="">
-              <iframe class="video-clip" width="720" height="auto"
-                src="https://player.vimeo.com/video/{{ page.vimeo_id }}?title=1&byline=0&portrait=0"
-                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-          {% endif %}
-
-          <!-- YOUTUBE -->
-          {% if page.youtube_id %}
-            <div class="">
-              <iframe class="video-clip" width="720" height="auto"
-                src="https://www.youtube.com/embed/{{ page.youtube_id }}"
-                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          {% endif %}
-
-          <!-- FACEBOOK VIDEO -->
-          {% if page.fb_video_link %}
-            <div class="">
-              <iframe class="video-clip" width="100%" height="100%"
-                src="https://www.facebook.com/plugins/video.php?href={{ page.fb_video_link }}&show_text=0&width=auto"
-                style="border:none;overflow:hidden"
-                scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"
-              ></iframe>
-            </div>
-          {% endif %}
-
-        </div>
+      <div class="container">
 
         <!-- SOUNDCLOUD -->
         <div class="row">
@@ -96,6 +65,32 @@
           </div>
           {% endfor %}
         </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <hr class="spacer">
+            <!-- VIMEO -->
+            {% if page.vimeo_id %}
+              <iframe class="video-clip" width="720" height="auto"
+                src="https://player.vimeo.com/video/{{ page.vimeo_id }}?title=1&byline=0&portrait=0"
+                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <!-- YOUTUBE -->
+            {% elsif page.youtube_id %}
+              <iframe class="video-clip" width="720" height="auto"
+                src="https://www.youtube.com/embed/{{ page.youtube_id }}"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- FACEBOOK VIDEO -->
+            {% elsif page.fb_video_link %}
+              <iframe class="video-clip" width="100%" height="100%"
+                src="https://www.facebook.com/plugins/video.php?href={{ page.fb_video_link }}&show_text=0&width=auto"
+                style="border:none;overflow:hidden"
+                scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"
+              ></iframe>
+            {% endif %}
+          </div>
+        </div>
+
+
 
         <!-- GO BACK BUTTON -->
         <div class="row text-center">
