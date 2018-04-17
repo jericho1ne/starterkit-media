@@ -93,24 +93,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 blockquote {
   position: relative;
-  // color: $color-secondary;
   margin-top: 4px;
   padding-left: 20px;
   border-width: 0 0 0 8px;
   border-style: solid;
   border-left: 2px solid $color-secondary;
-
-  // -webkit-border-image:
-  //     -webkit-gradient(linear, 100% 0, 0 0, from($color-secondary), to($color-primary)) 1 100%;
-  //   -webkit-border-image:
-  //     -webkit-linear-gradient(right, $color-secondary, lighten($color-primary, 12%)) 1 100%;
-  //   -moz-border-image:
-  //     -moz-linear-gradient(right, $color-secondary, lighten($color-primary, 12%)) 1 100%;
-  //   -o-border-image:
-  //     -o-linear-gradient(right, $color-secondary, lighten($color-primary, 12%)) 1 100%;
-  //   border-image:
-  //     linear-gradient(to right, $color-secondary, lighten($color-primary, 12%)) 1 100%;
-  // border-left: 8px solid linear-gradient(to bottom, $color-primary 0, $color-primary 100%);
 
   @include relative-font-size(1.125);
   letter-spacing: 0.5px;
@@ -175,7 +162,7 @@ pre {
 }
 
 .bg-light-gray {
-  background-color: $color-gray-lightest;
+  background-color: lighten($color-gray-light, 10);
 }
 
 .bg-light-green {
@@ -185,17 +172,24 @@ pre {
 // RESPONSIVENESSSSS
 /* --------- 0-320px: iPhone 5 ---- */
 @media screen and (max-width: 320px) {
-  @include build-responsive-page(0.8);
+  @include build-responsive-page(0.9);
+  .video-clip {
+    min-height: 120px !important;
+  }
   // @include slim-navbar-brand();
 }
 /* --------- 321-546px: iPhone 6 / Plus --------------- */
 @media screen and (min-width: 321px) and (max-width: 546px) {
-  @include build-responsive-page(0.9);
+  @include build-responsive-page(0.95);
+  .video-clip {
+    min-height: 220px !important;
+  }
   // @include slim-navbar-brand();
 }
 /* --------- 547-767px -------------------------------- */
 @media screen and (min-width: 547px)  and (max-width: 767px) {
   @include build-responsive-page(1.0);
+
   // @include slim-navbar-brand();
 }
 /* --------- 768px - 950px ---------------------------- */
@@ -208,9 +202,9 @@ pre {
 }
 /* --------- 1201px - 1600px ------------------------------ */
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
-  @include build-responsive-page(1.2);
+  @include build-responsive-page(1.15);
 }
 /* --------- 1601px + ----------- */
 @media screen and (min-width: 1601px) and (max-width: 10000px) {
-  @include build-responsive-page(1.25);
+  @include build-responsive-page(1.2);
 }

@@ -44,6 +44,29 @@
     padding: $m*6em 0;
   }
 
+  #client-portfolio {
+    .header {
+      padding: $m * 2em;
+      height: $m * 28em;
+
+      .title {
+        position: relative;
+        bottom: $m * 5em;
+      }
+
+      .close-button {
+        top: $m * 1.5em;
+        right: $m * 2em;
+        width: $m * 44px;
+        height: $m * 44px;
+      }
+    }
+  }
+
+  .video-clip {
+    min-height: $m * 460px;
+  }
+
   // Services page
   .service-caption {
     min-height: $m * 60px;
@@ -59,9 +82,9 @@
     .navbar-nav {
       >li {
         > .navbar-link {
-          padding: $m*.65em 1em;
+          padding: $m*.5em 1em;
           margin: $m*0.75em 0;
-          font-size: $m*.85em;
+          font-size: $m*1em;
           letter-spacing: $m*0.15em;
         }
       }
@@ -71,11 +94,6 @@
   // HORIZONTAL RULE
   hr {
       margin: $m * 2rem auto;
-  }
-
-
-  iframe.video-clip {
-    // height: $m * 480px !important;
   }
 
   // Specific classes
@@ -88,8 +106,18 @@
   }
 
   body {
-    font-size: 1.6em * $m;
+    font-size: 1.5em * $m;
+    p {
+      line-height: $base-line-height * $m;
+
+      &.lead {
+        font-size: 1.1em * $m;
+        line-height: $base-line-height * $m;
+
+      }
+    }
   }
+
   hr.spacer {
       margin: $m*10px auto;
   }
@@ -118,7 +146,6 @@
     margin: $m*10px 0;
   }
 
-  p.lead { font-size: $m*1.12em; }
   // No space above sutitle to keep compact
 
   // Add space between columns
@@ -143,9 +170,11 @@
 
   .hero {
     font-size: $m*2.6em;
-    line-height: $m*1.2em;
-    font-weight: 200;
+    margin-top: $m * 15%;
+    line-height: $m*1.4em;
+    font-weight: 00;
     margin-bottom: auto;
+    padding: 0 $m * .85em 0 0;
   }
 }
 

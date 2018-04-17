@@ -8,7 +8,9 @@ permalink: madison-roe-paradise-found/
 image: madison-roe-paradise-found
 
 
-description: Madison started performing professionally at 13, and by 16 years of age, her music was broadcast on island radio stations on a daily basis. Madison has recently relocated to Los Angeles, California in order to expand her career.
+description: Madison started performing professionally at 13, and by 16 years of age, her music was broadcast on island radio stations on a daily basis. Madison has recently relocated to Los Angeles, California in order to expand her career. <br><br>Our own Paul Cline can be seen backing her up on the bass guitar in the "Changing Colors" video below.
+
+youtube_id: 3t3C3JHEbbg
 
 soundcloud:
 - name: You Are the One

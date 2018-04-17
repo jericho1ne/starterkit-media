@@ -12,6 +12,11 @@
         <div class="title">
             <h1>{{ page.title }}</h1>
         </div>
+        <button class="close-button">
+          <a href="/#portfolio">
+            <i class="fa fa-close fa-2x text-white"></i>
+          </a>
+        </button>
       </div>
 
       <!-- CONTAINER -->
@@ -30,44 +35,68 @@
 
       <!-- CONTAINER -->
       <div class="container-fluid borderless">
+
         <div class="row">
-        {% if page.vimeo_id %}
-          <div class="">
-            <iframe class="video-clip" width="720" height="360"
-            src="https://player.vimeo.com/video/{{ page.vimeo_id }}?title=1&byline=0&portrait=0"
-            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        {% endif %}
-        {% if page.youtube_id %}
-          <div class="">
-            <iframe class="video-clip" width="720" height="360"
-            src="https://www.youtube.com/embed/{{ page.youtube_id }}"
-            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        {% endif %}
+          <!-- VIMEO -->
+          {% if page.vimeo_id %}
+            <div class="">
+              <iframe class="video-clip" width="720" height="auto"
+                src="https://player.vimeo.com/video/{{ page.vimeo_id }}?title=1&byline=0&portrait=0"
+                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          {% endif %}
+
+          <!-- YOUTUBE -->
+          {% if page.youtube_id %}
+            <div class="">
+              <iframe class="video-clip" width="720" height="auto"
+                src="https://www.youtube.com/embed/{{ page.youtube_id }}"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          {% endif %}
+
+          {% if page.fb_video_link %}
+            <div class="">
+              <iframe class="video-clip" width="100%" height="100%"
+                src="https://www.facebook.com/plugins/video.php?href={{ page.fb_video_link }}&show_text=0&width=auto"
+                style="border:none;overflow:hidden"
+                scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"
+              ></iframe>
+            </div>
+          {% endif %}
+
         </div>
+
         <div class="row">
           {% for track in page.soundcloud %}
           <div class="col-sm-6 soundcloud">
             <h3>{{ track.name }}</h3>
 
-            <iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay"
+            <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ track.id }}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
           </div>
           {% endfor %}
         </div>
-      </div>
-      <!-- /CONTAINER -->
 
-      <!-- CONTAINER -->
-      <div class="container">
-        <div class="spacer">&nbsp;</div>
-        <div class="spacer">&nbsp;</div>
-        <button class="close-button">
-          <a href="/#portfolio">
-            <div class="lr"><div class="rl"></div></div>
+        <div class="row">
+          {% for track in page.bandcamp %}
+          <div class="col-sm-6 soundcloud">
+            <h3>{{ track.name }}</h3>
+
+            <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ track.id }}/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless></iframe>
+          </div>
+          {% endfor %}
+        </div>
+
+        <div class="row text-center">
+          <hr class="spacer">
+          <a href="/#portfolio" class="btn btn-lg text-center">
+            Go Back
           </a>
-        </button>
+          <hr class="spacer">
+          <hr class="spacer">
+        </div>
+
       </div>
       <!-- /CONTAINER -->
     </div>

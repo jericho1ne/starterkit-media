@@ -10,9 +10,6 @@ $close-button-parent: 54px;
 
   .header {
     position: relative;
-
-    min-height: 24em;
-    padding: 2em;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -23,12 +20,11 @@ $close-button-parent: 54px;
       width: 90%;
       margin: 0;
       height: auto;
-      top: 19.5em;
 
       h1 {
         position: absolute;
         letter-spacing: 0.025em;
-        font-weight: 800;
+        font-weight: 700;
         text-transform: none;
         color: #fff;
         text-shadow: 0.15rem 0.15rem 0.15rem rgba(0,0,0,0.5);
@@ -39,53 +35,17 @@ $close-button-parent: 54px;
 
 .close-button {
   opacity: 1;
-  position: absolute;
-  top: 22.25em;
-  right: 20px;
-
-  width: $close-button-parent;
-  height: $close-button-parent;
-
-  background-color: rgba(250, 80, 140, 1);
-  // background-color: rgba(250, 80, 140, 0.8);
-  // background-color: rgba(250, 250, 250, 0.9);
-
+  position: fixed;
   border-radius: 50%;
-
-  border: 1px solid $color-tertiary;
-
+  background-color: darken($color-tertiary, 4%);
+  border: 1px solid darken($color-tertiary, 12);
   cursor: pointer;
   z-index: 1000;
-
-  transition: all ease .25s;
+  // background-color: rgba(250, 80, 140, 1);
+  transition: all ease .3s;
 
   &:hover {
-    background-color: rgba(250, 80, 140, .8);
-    // background-color: rgba(250, 80, 140, 1);
-  }
-
-  .lr {
-    z-index: 1051;
-    width: 1px;
-    height: $close-button-size;
-    background-color: #fff;
-
-    margin-top: 0px;
-    margin-left: 19px;
-
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-
-    .rl {
-      z-index: 1052;
-      width: 1px;
-      height: $close-button-size;
-      background-color: #fff;
-      -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
-    }
+    background-color: $color-tertiary;
   }
 }
 
