@@ -60,6 +60,28 @@ ul.social-media-list {
     }
   }
 
+  .navbar-toggle {
+    height: 40px;
+    width: 40px;
+    border: 0;
+    padding: 10px 0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: $color-red-bright;
+
+    i {
+      font-size: 1.6em !important;
+    }
+
+    &:hover {
+      background: lighten($color-red-bright,15);
+      .icon-bar {
+        background: $color-gray-lightest;
+      }
+    }
+    }
+
   &.navbar-default {
     // background: lighten($color-green, 20) !important;
     background: rgba(73,96,126,0);

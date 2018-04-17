@@ -80,27 +80,6 @@ textarea.form-control {
   border-radius: 1px;
   background: #fff;
 }
-button.navbar-toggle {
-  height: 46px;
-  width: 46px;
-  border: 0;
-  padding: 12px 0;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  background: $color-red-bright;
-
-  i {
-    font-size: 1.5em !important;
-  }
-
-  &:hover {
-    background: lighten($color-red-bright,15);
-    .icon-bar {
-      background: $color-gray-lightest;
-    }
-  }
-}
 
 textarea {
   width: 90%;
@@ -291,8 +270,8 @@ section {
   position: relative;
   z-index: 10;
   margin: 0;
-  border-bottom: 1px solid $color-gray-lighter;
-  background-color: #fafafa;
+  border-bottom: 2px solid darken($color-gray-lightest, 4);
+  background-color: lighten($color-gray-lightest, 10);
 }
 
 ul.social-buttons {

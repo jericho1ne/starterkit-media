@@ -162,11 +162,15 @@ pre {
 }
 
 .bg-light-gray {
-  background-color: lighten($color-gray-light, 10);
+  background-color: lighten($color-gray-lighter, 10);
 }
 
 .bg-light-green {
-  background-color: lighten($color-secondary, 15);
+  background-color: lighten($color-secondary, 22);
+}
+
+.bg-light-blue {
+  background-color: lighten($color-primary, 12);
 }
 
 // RESPONSIVENESSSSS
@@ -182,7 +186,7 @@ pre {
 @media screen and (min-width: 321px) and (max-width: 546px) {
   @include build-responsive-page(0.95);
   .video-clip {
-    min-height: 220px !important;
+    min-height: 22b0px !important;
   }
   // @include slim-navbar-brand();
 }

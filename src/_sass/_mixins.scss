@@ -13,8 +13,8 @@
     background: url('../svg/SKM-small.svg');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    width: 60px;
-    min-height: 60px;
+    width: 52px;
+    min-height: 52px;
     margin: 0.3em 0;
     font-size: 0.5em;
   }
@@ -32,7 +32,7 @@
   }
   img.site-logo {
     display: block;
-    height: 54px;
+    height: 48px;
   }
 }
 
@@ -75,7 +75,7 @@
   .navbar {
     padding: $m*.5rem 0 $m*.1rem 0;
     .navbar-brand {
-      font-size: $m*1em;
+      // font-size: $m*1em;
       padding: $m*.25em 0 !important;
       // margin: $m*0.5em $m*0.5em;
     }
@@ -85,7 +85,7 @@
           padding: $m*.5em 1em;
           margin: $m*0.75em 0;
           font-size: $m*1em;
-          letter-spacing: $m*0.15em;
+          letter-spacing: $m*0.1em;
         }
       }
     }
