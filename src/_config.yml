@@ -4,7 +4,7 @@
 # https://jekyllrb.com/docs/configuration/
 #
 #
-url: https://starterkitmedia.com/
+url: https://starterkitmedia.com
 baseurl: ''
 
 # Custom vars
@@ -13,9 +13,9 @@ baseurl: ''
 #
 # Meta tags and User-facing descriptions
 #
-title: StarterKit Media
+title: StarterKit Media - Studio-quality media assets, Los Angeles and Kauai.
 email: connect@starterkitmedia.com
-description: "Visionary audio and video production for aspiring artists. Certified Avid + Pro Tools. sound production, studio time, budgeting."
+description: "Studio-quality media assets for emerging artists and businesses. Professional facilities on the island of Kauai and in Los Angeles. Contact us today for a quote!"
 
 # Blog-related
 show_excerpts: true

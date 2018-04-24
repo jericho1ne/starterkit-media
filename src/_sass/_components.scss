@@ -161,7 +161,7 @@ textarea.form-control {
 // Landing page text
 header {
   z-index: 10;
-  min-height: 100vh;
+  min-height: 80vh;
   // max-width: 100%;
   height: auto;
   width: auto;
@@ -195,7 +195,7 @@ header {
   .banner-cta {
   //   position: absolute;
   //   width: 100%;
-    bottom: 15%;
+    bottom: 30%;
   }
 }
 
@@ -251,11 +251,11 @@ header {
 
   video {
     position: fixed;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
+    top: 24%; left: 50%;
+    transform: translate(-50%, -30%);
 
     min-width: 100%;
-    min-height: 100%;
+    min-height: 80%;
 
     width: auto;
     height: auto;
