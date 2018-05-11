@@ -44,7 +44,14 @@
     padding: $m*1.5em 0;
   }
 
-  #client-portfolio {
+  .close-button {
+    top: $m * 1.5em;
+    right: $m * 2em;
+    width: $m * 44px;
+    height: $m * 44px;
+  }
+
+  .client-portfolio {
     .header {
       padding: $m * 2em;
       height: $m * 28em;
@@ -52,13 +59,6 @@
       .title {
         position: relative;
         bottom: $m * 5em;
-      }
-
-      .close-button {
-        top: $m * 1.5em;
-        right: $m * 2em;
-        width: $m * 44px;
-        height: $m * 44px;
       }
     }
   }

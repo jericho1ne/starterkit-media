@@ -7,6 +7,8 @@ image: brent-boberg
 slug: brent-boberg
 order: 3
 
+tagline: 
+
 social:
   - title: instagram
     url: https://www.instagram.com/brentboberg/

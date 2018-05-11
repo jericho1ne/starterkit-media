@@ -1,4 +1,3 @@
-
 #
 #
 # https://jekyllrb.com/docs/configuration/
@@ -20,49 +19,7 @@ description: "Studio-quality media assets for emerging artists and businesses. P
 # Blog-related
 show_excerpts: true
 
-# Directory / Files - what does this do?
-# defaults:
-#   - scope:
-#       path: "assets/img"
-#     values:
-#       image: true
-
-# Team names, titles and social links
-# team:
-# - name: Paul Cline aka Brother Peace Cee
-#   role: Executive Producer
-#   image: paul-cline-aka-brother-peace-cee
-#   slug: paul-cline
-#   bio: Avid and Final Cut Pro-certified.
-#   tagline: Boundless creativity - our mobile recording studio lets you produce your music anywhere you wish
-#   skills: Pro-Tools (6 yrs) and Avid certified (3 yrs).  Trained in Final Cut (5 yrs) and Logic (2 yrs). Combined 12 year experience mixing, mastering, and editing.
-#   experience: Produced, Filmed, Directed and Edited most of the video content you see on this website. Launched three successul bands in the Reggae, Punk and Hip Hop genres. Peace Cee also has released two full solo LPs and one EP, with another LP on the way.
-#   accreditations: https://www.mi.edu/, Berklee School of Music Online
-#   social:
-#     - title: linkedin
-#       url: https://www.linkedin.com/in/paul-cline-a5a10457/
-#     - title: facebook
-#       url: https://www.facebook.com/unknownendeavors/
-
-# - name: Mihai Peteu
-#   role: Asset Creation, Photography, Cinematography
-#   image: mihai-peteu
-#   slug: mihai-peteu
-#   tagline: Boundless energy
-#   accreditations: USC Interactive MFA, Adobe Creative Suite.
-#   experience: 10+ years of amateur photography, 2 years professional. 10+ years of experience with Avid, Final Cut, Premiere, After Effects, DaVince Resolve.
-#   social:
-#     - title: linkedin
-#       url: https://www.linkedin.com/in/mihai-peteu/
-#     - title: github
-#       url: https://github.com/jericho1ne/
-#     - title: vimeo
-#       url: https://vimeo.com/jericho1ne
-#   description: Digital Decathlete since 2006.
-
-
-
-# Social network handles
+# Site-levelw network handles
 # (eg: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
@@ -74,16 +31,6 @@ social:
   - title: facebook
     url: https://www.facebook.com/pg/unknownendeavors/
 
-
-# # Postal address (add as many lines as necessary)
-# address:
-# #  - line: Los Angeles, CA 90210
-
-
-
-#
-# Build settings
-#
 # Create team member pages from src/_team/*.md files
 collections:
   team:
@@ -96,3 +43,19 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+
+# # Postal address (add as many lines as necessary)
+# address:
+# #  - line: Los Angeles, CA 90210
+
+
+# Directory / Files - what does this do?
+# defaults:
+#   - scope:
+#       path: "assets/img"
+#     values:
+#       image: true
+
+
+
+

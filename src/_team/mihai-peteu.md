@@ -2,12 +2,12 @@
 layout: team-member-detail
 
 name: Mihai Peteu
-role: Asset Creation, Photography, Cinematography
+role: Content Creation
 image: mihai-peteu
 slug: mihai-peteu
 order: 2
 
-tagline: Boundless energy
+tagline: Boundless energy. Digital Decathlete since 2006.
 
 accreditations: USC Interactive MFA, Adobe Creative Suite.
 
@@ -20,6 +20,4 @@ social:
     url: https://github.com/jericho1ne/
   - title: vimeo
     url: https://vimeo.com/jericho1ne
-
-description: Digital Decathlete since 2006.
 ---
