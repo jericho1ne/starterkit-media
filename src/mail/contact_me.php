@@ -9,30 +9,29 @@ if (empty($_POST['name'])  		||
 	return false;
 }
 
-$name 			= $_POST['name'];
-$email_address 	= $_POST['email'];
+$name 			= $_POST['name'];$email_address 	= $_POST['email'];
 $phone 			= $_POST['phone'];
 $message 		= $_POST['message'];
 
 // Create the email and send the message
-$to = 'pcline71@gmail.com'; 
+$to = 'pcline71@gmail.com';
 
 $email_subject = "StarterKit Media Contact Form – $name";
 
-$email_body = 
+$email_body =
 	"You have received a new message from your website contact form.\n\n\n\n".
 	"Name: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 
-// This is the email address the generated message will be from. 
+// This is the email address the generated message will be from.
 // We recommend using something like noreply@yourdomain.com.
-$headers = "From: noreply@starterkitmedia.com\n"; 
+$headers = "From: noreply@starterkitmedia.com\n";
 
 $headers .= "Reply-To: $email_address";
 
 mail(
-	$to, 
-	$email_subject, 
-	$email_body, 
+	$to,
+	$email_subject,
+	$email_body,
 	$headers
 );
 
