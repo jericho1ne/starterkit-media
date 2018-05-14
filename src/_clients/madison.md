@@ -1,6 +1,7 @@
 ---
 layout: client-detail
 
+order: 9
 title: Madison / Paradise Found
 subtitle: Engineer, Mix, Master, Bass guitar
 category: studio-recording

@@ -1,6 +1,7 @@
 ---
 layout: client-detail
 
+order: 1
 title: Cynergy Cycles
 subtitle: Promotional Video
 category: video-production

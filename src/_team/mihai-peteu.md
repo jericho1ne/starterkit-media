@@ -7,11 +7,14 @@ image: mihai-peteu
 slug: mihai-peteu
 order: 2
 
-tagline: Boundless energy. Digital Decathlete since 2006.
+tagline: Boundless energy.
 
-accreditations: USC Interactive MFA, Adobe Creative Suite.
+skills: Adobe Creative Suite, DaVinci Resolve. Over five years of experience shooting and editing short films on the BlackMagic Pocket Cinema, Olympus EM5 Mark I, and EM-5 MK II cameras.
 
-experience: 10+ years of amateur photography, 2 years professional. 10+ years of experience with Avid, Final Cut, Premiere, After Effects, DaVince Resolve.
+experience: Post Production work for <a href="http://doubleententefilms.com/">Double Entente Films</a>. 
+
+accreditations: USC School of Cinematic Arts MFA
+
 
 social:
   - title: linkedin

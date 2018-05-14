@@ -1,6 +1,7 @@
 ---
 layout: client-detail
 
+order: 6
 title: Bike Improve
 subtitle: Promotional Video
 category: video-production

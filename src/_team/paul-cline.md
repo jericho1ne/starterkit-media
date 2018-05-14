@@ -1,7 +1,7 @@
 ---
 layout: team-member-detail
 
-name: Paul Cline aka Peace Cee
+name: Paul Cline
 role: Executive Producer
 image: paul-cline-aka-brother-peace-cee
 slug: paul-cline

@@ -35,6 +35,8 @@ social:
 collections:
   team:
     output: true
+  clients:
+    output: true
 markdown: kramdown
 permalink: pretty
 

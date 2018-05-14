@@ -1,6 +1,7 @@
 ---
 layout: client-detail
 
+order: 2
 title: Applesauce
 subtitle: Songwriting, Record, Mix, Master
 category: studio-recording

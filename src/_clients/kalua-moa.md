@@ -1,6 +1,7 @@
 ---
 layout: client-detail
 
+order: 1
 title: Kalua Moa
 subtitle: Engineer, Record, Mix, Master
 category: studio-recording

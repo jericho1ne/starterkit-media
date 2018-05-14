@@ -1,6 +1,7 @@
 ---
 layout: client-detail
 
+order: 8
 title: Expendable Youth
 subtitle: Lead vocals, Music Video, Mix, Master, Track
 category: studio-recording

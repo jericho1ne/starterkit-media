@@ -1,6 +1,7 @@
 ---
 layout: client-detail
 
+order: 4
 title: Abi Dawn - Shredded Rx
 subtitle: Promotional Video
 category: video-production

@@ -1,6 +1,7 @@
 ---
 layout: client-detail
 
+order: 7
 title: Kauai Music Scene
 subtitle: Documentary Film
 category: video-production
