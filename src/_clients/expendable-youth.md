@@ -3,7 +3,7 @@ layout: client-detail
 
 order: 8
 title: Expendable Youth
-subtitle: Lead vocals, Music Video, Mix, Master, Track
+subtitle: Vocals, Music Video, Mix, Master, Track
 category: studio-recording
 permalink: expendable-youth/
 image: expendable-youth
