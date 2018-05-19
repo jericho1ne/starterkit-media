@@ -186,7 +186,7 @@ pre {
 @media screen and (min-width: 321px) and (max-width: 546px) {
   @include build-responsive-page(0.95);
   .video-clip {
-    min-height: 22b0px !important;
+    min-height: 220px !important;
   }
   // @include slim-navbar-brand();
 }
