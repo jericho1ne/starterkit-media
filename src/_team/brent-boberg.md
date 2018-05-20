@@ -5,7 +5,7 @@ name: Brent Boberg
 role: Mixer, Songwriter
 image: brent-boberg
 slug: brent-boberg
-order: 3
+order: 2
 
 skills: Founded Unconditional Life band in 2009.
 

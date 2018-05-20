@@ -5,7 +5,7 @@ name: Mihai Peteu
 role: Content Creation
 image: mihai-peteu
 slug: mihai-peteu
-order: 2
+order: 4
 
 tagline: Boundless energy.
 

@@ -12,9 +12,10 @@ baseurl: ''
 #
 # Meta tags and User-facing descriptions
 #
-title: StarterKit Media - Studio-quality media assets, Los Angeles and Kauai.
+title: StarterKit Media - Studio-quality video production, demo track recording and media assets in Los Angeles and Kauai.
+abridged: StarterKit Media - Studio-quality video and audio production in Los Angeles and Kauai.
 email: connect@starterkitmedia.com
-description: "Studio-quality media assets for emerging artists and businesses. Professional facilities on the island of Kauai and in Los Angeles. Contact us today for a quote!"
+description: "Studio-quality video production, demo track recording, and media assets for emerging artists and businesses. Professional facilities on the island of Kauai and in Los Angeles."
 
 # Blog-related
 show_excerpts: true
