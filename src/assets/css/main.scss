@@ -9,13 +9,12 @@
 @import "base";
 @import "components";
 @import "team";
-@import "portfolio";
+@import "clients";
 @import "navbar";
 @import "timeline";
 @import "footer";
 
 @charset "utf-8";
-
 
 div.row {
   // border: 1px solid red !important;
@@ -24,5 +23,3 @@ div.row {
 div[class^="col-"] {
   // border: 1px solid blue !important;
 }
-
-// Video Background

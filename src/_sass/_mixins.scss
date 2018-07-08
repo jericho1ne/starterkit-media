@@ -47,8 +47,6 @@
   .close-button {
     top: $m * 1.5em;
     right: $m * 2em;
-    width: $m * 44px;
-    height: $m * 44px;
   }
 
   .client-portfolio {
@@ -58,7 +56,7 @@
 
       .title {
         position: relative;
-        bottom: $m * 5em;
+        top: $m * 16em;
       }
     }
   }
