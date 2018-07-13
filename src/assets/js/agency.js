@@ -38,21 +38,21 @@ $('div.modal').on('show.bs.modal', function() {
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  $(window).scroll(function() {
-    var windowTop = $(this).scrollTop();
-    var windowBottom = windowTop + $(this).innerHeight();
-    var browserHeight = $(window).height();
-    var opacity = 1.1 - (windowTop / browserHeight);
+  // $(window).scroll(function() {
+  //   var windowTop = $(this).scrollTop();
+  //   var windowBottom = windowTop + $(this).innerHeight();
+  //   var browserHeight = $(window).height();
+  //   var opacity = 1.1 - (windowTop / browserHeight);
 
-    if (opacity > 1) {
-      opacity = 1;
-    }
+  //   if (opacity > 1) {
+  //     opacity = 1;
+  //   }
 
-    if (windowTop > browserHeight) {
-      $('.video-wrapper').css('display', 'none');
-    } else {
-      $('.video-wrapper').css('display', 'block');
-    }
-    $('.video-wrapper').css('opacity', opacity);
-  }).scroll();
+  //   if (windowTop > browserHeight) {
+  //     $('.video-wrapper').css('display', 'none');
+  //   } else {
+  //     $('.video-wrapper').css('display', 'block');
+  //   }
+  //   $('.video-wrapper').css('opacity', opacity);
+  // }).scroll();
 });

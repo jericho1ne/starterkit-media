@@ -55,6 +55,9 @@ ul.post-list {
   }
 }
 
+#services i.fa {
+
+}
 .services-card {
   padding-bottom: $spacing-unit * 3;
   padding-right: 30px;
@@ -233,7 +236,7 @@ header {
 
 // Background Video
 .video-wrapper {
-  position: fixed;
+  position: absolute;
   margin: 0px;
   padding: 0px;
   top: 0;
@@ -249,7 +252,7 @@ header {
   // height: auto;
 
   video {
-    position: fixed;
+    position: absolute;
     top: 24%; left: 50%;
     transform: translate(-50%, -30%);
 
@@ -258,7 +261,7 @@ header {
 
     width: auto;
     height: auto;
-    z-index: -100;
+    z-index: 1;
 
     background: rgba(0,0,0,0);
     // display: block;
