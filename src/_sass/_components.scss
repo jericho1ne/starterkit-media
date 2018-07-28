@@ -55,13 +55,13 @@ ul.post-list {
   }
 }
 
-#services i.fa {
-
-}
-.services-card {
-  padding-bottom: $spacing-unit * 3;
-  padding-right: 30px;
-  line-height: 1.64;
+#services {
+  .service-cards {
+    padding-bottom: $spacing-unit*4;
+    i.fa {
+      color: $color-tertiary !important;
+    }
+  }
 }
 
 .muted-icon {
@@ -199,6 +199,11 @@ header {
   //   width: 100%;
     bottom: 30%;
   }
+}
+
+.cta {
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  padding: 4em;
 }
 
 //

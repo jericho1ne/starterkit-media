@@ -1,5 +1,4 @@
 node_modules
-*.sh
 *.sublime-workspace
 website/node_modules/
 dist/
