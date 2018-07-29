@@ -38,6 +38,12 @@ $('div.modal').on('show.bs.modal', function() {
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
+  var skmVideoLoop = document.getElementById("skm-loop");
+  //skmVideoLoop.addEventListener("canplay", function() {
+    console.warn("Video seems to work!");
+    skmVideoLoop.play();
+  //});
+
   // $(window).scroll(function() {
   //   var windowTop = $(this).scrollTop();
   //   var windowBottom = windowTop + $(this).innerHeight();
