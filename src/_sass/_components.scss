@@ -91,7 +91,7 @@ input.form-control,
 textarea.form-control {
   font-size: $font-size-base;
   transition: all 0.4s ease;
-  background-color: $color-gray-lightest;
+  background-color: lighten($color-gray-light, 15);
   color: $color-gray-darkest;
   border-top: none;
   border-left: none;
@@ -112,7 +112,9 @@ textarea.form-control {
     border-bottom: 2px solid $color-secondary;
     box-shadow: none !important;
     // box-shadow: 0 0 0 4px $color-secondary;
-    background-color: lighten($color-secondary, 30%);
+    background-color: lighten($color-gray-light, 15);
+
+    // background-color: lighten($color-secondary, 30%);
     //border-bottom: 2px solid $color-tertiary;
   }
 }
@@ -288,8 +290,8 @@ section {
   position: relative;
   z-index: 10;
   margin: 0;
-  border-bottom: 2px solid darken($color-gray-lightest, 4);
-  background-color: lighten($color-gray-lightest, 10);
+  border-bottom: 1px solid darken($color-gray-light, 10);
+  // background-color: lighten($color-gray-lightest, 10);
 }
 
 ul.social-buttons {
