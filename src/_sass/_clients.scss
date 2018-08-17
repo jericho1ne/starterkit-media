@@ -109,16 +109,13 @@ $close-button-parent: 54px;
       width: $col-width;
     }
     .portfolio-caption {
+      color: #fff;
       margin: 0 auto;
-      padding: .4em 0 .8em 0;
+      padding: .5em 0 .8em 0;
       max-width: $col-width;
-      height: auto;
       text-align: center;
-      background-color: #fff;
-      border-right: 1px solid $color-gray-lighter;
-      border-left: 1px solid $color-gray-lighter;
-      border-bottom: 1px solid $color-gray-lighter;
-      border-radius: 4px;
+      background-color: darken($color-tertiary, 10);
+      border-top: 1px solid #000;
 
       p {
         margin-bottom: 0;

@@ -57,7 +57,7 @@ ul.post-list {
 
 #services {
   .service-cards {
-    padding-bottom: $spacing-unit*4;
+    // padding-bottom: $spacing-unit*4;
     i.fa {
       color: $color-tertiary !important;
     }
@@ -181,7 +181,7 @@ header {
   width: auto;
   text-align: center;
   color: #fff;
-  font-face: $header-font-family;
+  font-family: $header-font-family;
 
   .hero {
     opacity: 0.96;
