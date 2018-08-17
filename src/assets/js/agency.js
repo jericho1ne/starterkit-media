@@ -39,10 +39,8 @@ $('div.modal').on('show.bs.modal', function() {
 
 document.addEventListener("DOMContentLoaded", function(event) {
   var skmVideoLoop = document.getElementById("skm-loop");
-  //skmVideoLoop.addEventListener("canplay", function() {
-  console.warn("Video playing.");
+  // console.warn("Video playing.");
   skmVideoLoop.play();
-  //});
 
   // $(window).scroll(function() {
   //   var windowTop = $(this).scrollTop();
