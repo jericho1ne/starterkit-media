@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
+ * Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -41,6 +41,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var skmVideoLoop = document.getElementById("skm-loop");
   // console.warn("Video playing.");
   skmVideoLoop.play();
+
+  $('.slider').sss({
+    // Set to false to stop from automatically cyling.
+    slideShow : false,
+
+    // Slide to display first. Uses array notation (0 = first slide)
+    // startOn : 0,
+
+    // Slideshow speed in milliseconds
+    speed : 5500,
+
+    // Set to false to hide navigation arrows
+    showNav : true,
+
+    // Length (in milliseconds) of the fade transition.
+    transition : 400,
+  });
 
   // $(window).scroll(function() {
   //   var windowTop = $(this).scrollTop();
