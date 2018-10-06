@@ -327,7 +327,8 @@ ul.social-buttons {
 
 // Super Simple Slider
 .sss {
-	height: 0;
+  height: auto;
+  // min-height: 20rem;
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -356,20 +357,21 @@ ul.social-buttons {
     display: block;
   }
   .caption {
-    padding: 2rem 4rem;
-    min-height: 180px;
+    padding: 2rem 10rem;
+    // min-height: 180px;
     border-radius: 10px;
   }
 }
 .sssnext, .sssprev {
-	width: 100px;
+  width: 6rem;
+  padding: 1rem;
 	height: 100%;
 	margin: 0;
 	position: absolute;
-  background-position: 50% 40% !important;
-  background-size: cover;
-  opacity: 0.6;
-
+  background-position: bottom !important;
+  bottom: 6%;
+  background-size: contain !important;
+  opacity: 0.75;
   &:hover {
     cursor: pointer;
     opacity: 1;
@@ -377,9 +379,9 @@ ul.social-buttons {
 }
 .sssprev {
 	background: url('/assets/svg/slider-left.svg') no-repeat;
-	left: 0;
+  left: 2%;
 }
 .sssnext {
 	background: url('/assets/svg/slider-right.svg') no-repeat;
-	right: 0;
+	right: 3%;
 }

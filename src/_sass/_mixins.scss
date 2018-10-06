@@ -180,12 +180,27 @@
 @media (min-width: 0px) and (max-width: 519px) {
   @include slim-navbar-brand();
   // ul.nav { border: 1px solid black; }
+
+  .sss {
+    .ssslide {
+      .caption {
+        padding: 2rem 6rem;
+      }
+    }
+    .sssnext, .sssprev {
+      width: 4rem !important;
+    }
+  }
 }
 
 // Laptop
 @media (min-width: 520px) and (max-width: 767px) {
   @include slim-navbar-brand();
   // ul.nav { border: 1px solid purple; }
+
+  // .sss {
+  //   min-height: 50rem;
+  // }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
