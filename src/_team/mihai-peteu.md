@@ -2,7 +2,7 @@
 layout: team-member-detail
 
 name: Mihai Peteu
-role: Content Creation
+role: DP, Content Creation
 image: mihai-peteu
 slug: mihai-peteu
 order: 4

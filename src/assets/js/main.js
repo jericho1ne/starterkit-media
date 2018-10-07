@@ -39,11 +39,12 @@ $('div.modal').on('show.bs.modal', function() {
 
 document.addEventListener("DOMContentLoaded", function(event) {
   var skmVideoLoop = document.getElementById("skm-loop");
+
   // console.warn("Video playing.");
   skmVideoLoop.play();
 
   $('.slider').sss({
-    // Set to false to stop from automatically cyling.
+    // Set to false to stop from automatically cycling.
     slideShow : false,
 
     // Slide to display first. Uses array notation (0 = first slide)
@@ -58,6 +59,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // Length (in milliseconds) of the fade transition.
     transition : 400,
   });
+
+  // Stop video playback (all clips) if user changes slider position
+  $('.sssprev, .sssnext').click(function() {
+    $('.video-clip').each(function(){
+      this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+    });
+  });
+
 
   // $(window).scroll(function() {
   //   var windowTop = $(this).scrollTop();

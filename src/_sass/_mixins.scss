@@ -26,7 +26,7 @@
 @mixin regular-navbar-brand() {
   .navbar-brand {
     background: none;
-    width: 260px;
+    width: 244px;
     margin: 0.5em 0;
     font-size: 0.75em;
   }
@@ -80,9 +80,9 @@
     .navbar-nav {
       >li {
         > .navbar-link {
-          padding: $m*.5em 1em;
+          padding: $m*.5em 1em $m*.25em 1em;
           margin: $m*0.75em 0;
-          font-size: $m*1em;
+          font-size: $m*.8em;
           letter-spacing: $m*0.1em;
         }
       }
@@ -151,7 +151,7 @@
       padding: 0 $m*30px;
   }
   .btn {
-    padding: $m*.35em $m*1.25em;
+    padding: $m*.5em $m*1.25em $m*.35em $m*1.25em ;
   }
   .btn-md {
     font-size: $m*0.75em;
