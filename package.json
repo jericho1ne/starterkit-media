@@ -10,6 +10,6 @@
     "serve": "jekyll serve --source src --destination dist --livereload",
     "deploy": "jekyll build --source src --destination dist && ./deploy.sh"
   },
-  "author": "Mihai Peteu / Low Tide Digital LLC",
+  "author": "Mihai Peteu / Starterkit Media",
   "license": "ISC"
 }

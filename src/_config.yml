@@ -13,8 +13,8 @@ baseurl: ''
 # Meta tags and User-facing descriptions
 #
 title: StarterKit Media - Studio-quality video production, demo track recording and media assets in Los Angeles and Kauai.
-abridged: StarterKit Media - Studio-quality video and audio production in Los Angeles and Kauai.
-email: connect@starterkitmedia.com
+abridged: StarterKit Media - Studio-quality video and audio production. Los Angeles + Kauai.
+email: hello@starterkitmedia.com
 description: "Studio-quality video production, demo track recording, and media assets for emerging artists and businesses. Professional facilities on the island of Kauai and in Los Angeles."
 
 # Blog-related
@@ -24,15 +24,13 @@ show_excerpts: true
 # (eg: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
-    url: https://www.instagram.com/unknown_endeavors/
-  - title: vimeo
-    url: https://vimeo.com/unknownendeavors
+    url: https://www.instagram.com/starterkitmedia/
+  #- title: vimeo
+  #  url: https://vimeo.com/unknownendeavors
   - title: youtube
     url: https://www.youtube.com/channel/UC5SzlcR3h2gW9bl7tqX2Gzg
-  - title: twitter
-    url: https://twitter.com/unknownendvrs
   - title: facebook
-    url: https://www.facebook.com/pg/unknownendeavors/
+    url: http://fb.me/starterkitmedia
 
 # Create team member pages from src/_team/*.md files
 collections:
