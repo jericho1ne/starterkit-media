@@ -61,28 +61,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
   // Stop video playback (all clips) if user changes slider position
-  $('.sssprev, .sssnext').click(function() {
-    $('.video-clip').each(function(){
-      this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
-    });
-  });
-
-
-  // $(window).scroll(function() {
-  //   var windowTop = $(this).scrollTop();
-  //   var windowBottom = windowTop + $(this).innerHeight();
-  //   var browserHeight = $(window).height();
-  //   var opacity = 1.1 - (windowTop / browserHeight);
-
-  //   if (opacity > 1) {
-  //     opacity = 1;
-  //   }
-
-  //   if (windowTop > browserHeight) {
-  //     $('.video-wrapper').css('display', 'none');
-  //   } else {
-  //     $('.video-wrapper').css('display', 'block');
-  //   }
-  //   $('.video-wrapper').css('opacity', opacity);
-  // }).scroll();
+  // $('.sssprev, .sssnext').click(function() {
+  //   $('.video-clip').each(function(){
+  //     this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+  //   });
+  // });
 });
