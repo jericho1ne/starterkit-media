@@ -1,4 +1,4 @@
-ModPagespeed on
+ModPagespeed off
 Header set Access-Control-Allow-Origin "*"
 Header unset Accept-Ranges
 
