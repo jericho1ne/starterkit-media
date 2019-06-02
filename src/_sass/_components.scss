@@ -237,13 +237,14 @@ header {
 
 .video-overlay {
   padding-bottom: 0px !important;
-  background: -webkit-gradient(linear, left top, left bottom,
-      from(rgba(100,100,100,0)),
-      to(rgba(0,0,0,0.4)), color-stop(0, rgba(200,100,100,0.6))
-  );
-
-  // background-color: darken($color-gray-darkest, 10);
-  opacity: 1;
+  // background: -webkit-gradient(linear, left top, left bottom,
+  //     from(rgba(100,100,100,0)),
+  //     to(rgba(0,0,0,0.4)), color-stop(0, rgba(200,100,100,0.6))
+  // );
+  // background-image: radial-gradient($color-green 40%, transparent 45%);
+  background-image: radial-gradient(#222 40%, transparent 25%);
+  background-size: 4px 4px;
+  opacity: .4;
   min-width: 100%;
   min-height: 100vh;
   width: auto;
