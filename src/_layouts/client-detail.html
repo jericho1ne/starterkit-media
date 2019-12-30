@@ -9,21 +9,25 @@
         class="header"
         style="background-image:url('../assets/img/portfolio/{{ page.image }}.jpg')"
       >
-        <div class="title">
-            <h1>{{ page.title }}</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="title">{{ page.title }}</h1>
+              <button class="close-button">
+                <a href="/#portfolio">
+                  <i class="fa fa-close fa-3x text-white"></i>
+                </a>
+              </button>
+            </div>
+          </div>
         </div>
-        <button class="close-button">
-          <a href="/#portfolio">
-            <i class="fa fa-close fa-3x text-white"></i>
-          </a>
-        </button>
       </div>
 
       <!-- CONTAINER -->
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h2>{{ page.subtitle }}</h2>
+            <h5>{{ page.subtitle }}</h5>
             <hr class="">
             {% if page.description %}
               <p>{{ page.description }}</p>

@@ -8,13 +8,11 @@ category: studio-recording
 permalink: kalua-moa/
 image: kalua-moa
 
-vimeo_id: 44713958
+youtube_id: bRM9eQDyZsU
 
 description: Conscious roots reggae/dub group hailing from Kauai.  Band consists of Kyrandt Tamagawa (Bass), Chase Bohn (Guitar/Vocals), and Liam Mackenzie (Drums).
 
 soundcloud:
-- name: Keep the Fire Burning
-  id: 175249671
 - name: Ran
   id: 213292795
 - name: Red Line

@@ -41,6 +41,10 @@ ul.social-media-list {
 // Navigation bar
 //
 .navbar {
+  border-top: 4px solid $color-tertiary;
+  font-family: $body-font-family;
+  transition: all 0.2s ease;
+
   @media screen  and (max-width: 767px) {
     .navbar-collapse {
       border: 0;
@@ -52,11 +56,10 @@ ul.social-media-list {
       // background-color: rgba(73,169,126,1);
     }
   }
-  @media screen  and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .navbar-collapse {
       border-bottom-left-radius: none;
       border-bottom-right-radius: none;
-      // background-color: rgba(73,169,126,0);
     }
   }
 
@@ -83,13 +86,8 @@ ul.social-media-list {
     }
 
   &.navbar-default {
-    // background: lighten($color-green, 20) !important;
-    background: rgba(73,96,126,0);
+    background-color: rgba(30, 30, 30, .45);
   }
-
-  border: 0;
-  font-family: $body-font-family;
-  transition: all 0.2s ease;
 
   // BG COLOR UPON SCROLL
   &.navbar-shrink {
@@ -99,7 +97,7 @@ ul.social-media-list {
   }
 
   .navbar-brand {
-    font-face: $header-font-family-alt;
+    font-family: $header-font-family-alt;
     color: $color-secondary;
     text-transform: uppercase;
     font-weight: 600;

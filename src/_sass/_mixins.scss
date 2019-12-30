@@ -51,12 +51,12 @@
 
   .client-portfolio {
     .header {
-      padding: $m * 2em;
-      height: $m * 28em;
+      padding: $m * 2em 0;
+      height: $m * 20em;
 
       .title {
         position: relative;
-        top: $m * 16em;
+        top: $m * 22rem;
       }
     }
   }
@@ -73,15 +73,14 @@
   .navbar {
     padding: $m*.5rem 0 $m*.1rem 0;
     .navbar-brand {
-      // font-size: $m*1em;
-      padding: $m*.25em 0 !important;
+      padding: $m * .5em 0 !important;
       // margin: $m*0.5em $m*0.5em;
     }
     .navbar-nav {
       >li {
         > .navbar-link {
-          padding: $m*.5em 1em $m*.25em 1em;
-          margin: $m*0.75em 0;
+          padding: $m*.35em 1em;
+          margin: $m*1.5em 0;
           font-size: $m*.8em;
           letter-spacing: $m*0.1em;
         }
@@ -91,7 +90,7 @@
 
   // HORIZONTAL RULE
   hr {
-      margin: $m * 2rem auto;
+      margin: $m * 1rem auto;
   }
 
   // Specific classes
@@ -129,7 +128,7 @@
   }
   h3 {
     font-size: 1.6em * $m;
-    margin: $m*1.75rem 0 $m*.5rem 0;
+    margin: $m*1rem 0 $m*.25rem 0;
   }
   h4 {
     font-size: 1.45em * $m;
@@ -170,7 +169,7 @@
     font-size: $m*2.6em;
     margin-top: $m * 6%;
     line-height: $m*1.4em;
-    font-weight: 00;
+    font-weight: 400;
     margin-bottom: auto;
     padding: 0 $m * .85em 0 0;
   }

@@ -15,20 +15,13 @@ $close-button-parent: 54px;
     background-repeat: no-repeat;
     background-color: $color-gray-darkest;
 
-    .title {
+    h1.title {
       position: absolute;
-      width: 90%;
-      margin: 0;
-      height: auto;
-
-      h1 {
-        position: absolute;
-        letter-spacing: 0.025em;
-        font-weight: 700;
-        text-transform: none;
-        color: #fff;
-        text-shadow: 0.15rem 0.15rem 0.15rem rgba(0,0,0,0.5);
-      }
+      letter-spacing: 0.025em;
+      font-weight: 700;
+      text-transform: none;
+      color: #fff;
+      text-shadow: 0.15rem 0.15rem 0.15rem rgba(0,0,0,0.5);
     }
   }
 }
