@@ -3,7 +3,8 @@ node_modules
 website/node_modules/
 # dist/
 .sass-cache
-
+.jekyll-cache/
+src/.jekyll-cache/
 
 # OSX Crap
 .DS_Store

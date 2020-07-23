@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StarterKit Media - Studio-quality video production, demo track recording and media assets in Los Angeles and Kauai.</title>
+    <description>Studio-quality video production, demo track recording, and media assets for emerging artists and businesses. Professional facilities on the island of Kauai and in Los Angeles.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 23 Jul 2020 07:41:29 -0700</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2020 07:41:29 -0700</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+  </channel>
+</rss>
