@@ -50,8 +50,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       '<source src="assets/vid/skm-loop-' + (isMobile ? 'portrait' : 'landscape') + '.webm" type="video/webm">' +
     '</video>';
 
-
-    $('#header-video-wrapper').append(headerVideoHtml);
+  $('#header-video-wrapper').append(headerVideoHtml);
 
   // console.warn("Video playing.");
   // var skmVideoLoop = document.getElementById("skm-loop");

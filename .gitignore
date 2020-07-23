@@ -1,7 +1,7 @@
 node_modules
 *.sublime-workspace
 website/node_modules/
-dist/
+# dist/
 .sass-cache
 
 
