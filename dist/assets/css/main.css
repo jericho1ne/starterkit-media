@@ -39,25 +39,15 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure { margin-bottom: 
 
 footer { color: #c4c4c4; font-size: .9em !important; }
 
-@media (min-width: 0px) and (max-width: 519px) { .navbar-header { margin-left: 0.5em !important; }
-  .navbar-brand { background: url("../svg/SKM-small.svg"); background-repeat: no-repeat; background-size: 100% auto; width: 52px; min-height: 52px; margin: 0.3em 0; font-size: 0.5em; }
-  img.site-logo { display: none; }
-  .sss .ssslide .caption { padding: 2rem 6rem; }
-  .sss .sssnext, .sss .sssprev { width: 4rem !important; } }
+@media (min-width: 0px) and (max-width: 519px) { .navbar-header { margin-left: 0.5em !important; } .navbar-brand { background: url("../svg/SKM-small.svg"); background-repeat: no-repeat; background-size: 100% auto; width: 52px; min-height: 52px; margin: 0.3em 0; font-size: 0.5em; } img.site-logo { display: none; } .sss .ssslide .caption { padding: 2rem 6rem; } .sss .sssnext, .sss .sssprev { width: 4rem !important; } }
 
-@media (min-width: 520px) and (max-width: 767px) { .navbar-header { margin-left: 0.5em !important; }
-  .navbar-brand { background: url("../svg/SKM-small.svg"); background-repeat: no-repeat; background-size: 100% auto; width: 52px; min-height: 52px; margin: 0.3em 0; font-size: 0.5em; }
-  img.site-logo { display: none; } }
+@media (min-width: 520px) and (max-width: 767px) { .navbar-header { margin-left: 0.5em !important; } .navbar-brand { background: url("../svg/SKM-small.svg"); background-repeat: no-repeat; background-size: 100% auto; width: 52px; min-height: 52px; margin: 0.3em 0; font-size: 0.5em; } img.site-logo { display: none; } }
 
-@media (min-width: 768px) and (max-width: 991px) { .navbar-header { margin-left: 0.5em !important; }
-  .navbar-brand { background: url("../svg/SKM-small.svg"); background-repeat: no-repeat; background-size: 100% auto; width: 52px; min-height: 52px; margin: 0.3em 0; font-size: 0.5em; }
-  img.site-logo { display: none; } }
+@media (min-width: 768px) and (max-width: 991px) { .navbar-header { margin-left: 0.5em !important; } .navbar-brand { background: url("../svg/SKM-small.svg"); background-repeat: no-repeat; background-size: 100% auto; width: 52px; min-height: 52px; margin: 0.3em 0; font-size: 0.5em; } img.site-logo { display: none; } }
 
-@media (min-width: 992px) and (max-width: 1600px) { .navbar-brand { background: none; width: 244px; margin: 0.5em 0; font-size: 0.75em; }
-  img.site-logo { display: block; height: 48px; } }
+@media (min-width: 992px) and (max-width: 1600px) { .navbar-brand { background: none; width: 244px; margin: 0.5em 0; font-size: 0.75em; } img.site-logo { display: block; height: 48px; } }
 
-@media (min-width: 1601px) { .navbar-brand { background: none; width: 244px; margin: 0.5em 0; font-size: 0.75em; }
-  img.site-logo { display: block; height: 48px; } }
+@media (min-width: 1601px) { .navbar-brand { background: none; width: 244px; margin: 0.5em 0; font-size: 0.75em; } img.site-logo { display: block; height: 48px; } }
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
@@ -118,223 +108,25 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .bg-light-blue { background-color: #d6f1ff; }
 
 /* --------- 0-320px: iPhone 5 ---- */
-@media screen and (max-width: 320px) { section { padding: 1.35em 0; }
-  .close-button { top: 1.35em; right: 1.8em; }
-  .client-portfolio .header { padding: 1.8em 0; height: 18em; }
-  .client-portfolio .header .title { position: relative; top: 19.8rem; }
-  .video-clip { min-height: 486px; }
-  .service-caption { min-height: 54px; }
-  .navbar { padding: 0.45rem 0 0.09rem 0; }
-  .navbar .navbar-brand { padding: 0.45em 0 !important; }
-  .navbar .navbar-nav > li > .navbar-link { padding: 0.315em 1em; margin: 1.35em 0; font-size: 0.72em; letter-spacing: 0.09em; }
-  hr { margin: 0.9rem auto; }
-  .modal-header { height: 37.8%; }
-  .timeline img { width: 216px; height: 216px; }
-  body { font-size: 1.35em; }
-  body p { line-height: 1.575; }
-  body p.lead { font-size: 0.99em; line-height: 1.575; }
-  hr.spacer { margin: 0.225em auto; }
-  h1 { font-size: 2.475em; margin: 0.45rem 0; }
-  h2 { font-size: 2.07em; margin: 2.025rem 0 0.45rem 0; }
-  h3 { font-size: 1.44em; margin: 0.9rem 0 0.225rem 0; }
-  h4 { font-size: 1.305em; margin: 1.35rem 0 0.45rem 0; }
-  h5 { font-size: 1.17em; margin: 0.9rem 0 0.225rem 0; }
-  h6 { font-size: 0.9em; margin: 9px 0; }
-  *[class^='col-sm'] { padding: 0 27px; }
-  .btn { padding: 0.45em 1.125em 0.315em 1.125em; }
-  .btn-md { font-size: 0.675em; }
-  .btn-md { font-size: 0.9em; }
-  .btn-lg { font-size: 1.125em; }
-  .btn-xl { font-size: 1.35em; }
-  .hero { font-size: 2.34em; margin-top: 5.4%; line-height: 1.26em; font-weight: 400; margin-bottom: auto; padding: 0 0.765em 0 0; }
-  .video-clip { min-height: 120px !important; } }
+@media screen and (max-width: 320px) { section { padding: 1.35em 0; } .close-button { top: 1.35em; right: 1.8em; } .client-portfolio .header { padding: 1.8em 0; height: 18em; } .client-portfolio .header .title { position: relative; top: 19.8rem; } .video-clip { min-height: 486px; } .service-caption { min-height: 54px; } .navbar { padding: 0.45rem 0 0.09rem 0; } .navbar .navbar-brand { padding: 0.45em 0 !important; } .navbar .navbar-nav > li > .navbar-link { padding: 0.315em 1em; margin: 1.35em 0; font-size: 0.72em; letter-spacing: 0.09em; } hr { margin: 0.9rem auto; } .modal-header { height: 37.8%; } .timeline img { width: 216px; height: 216px; } body { font-size: 1.35em; } body p { line-height: 1.575; } body p.lead { font-size: 0.99em; line-height: 1.575; } hr.spacer { margin: 0.225em auto; } h1 { font-size: 2.475em; margin: 0.45rem 0; } h2 { font-size: 2.07em; margin: 2.025rem 0 0.45rem 0; } h3 { font-size: 1.44em; margin: 0.9rem 0 0.225rem 0; } h4 { font-size: 1.305em; margin: 1.35rem 0 0.45rem 0; } h5 { font-size: 1.17em; margin: 0.9rem 0 0.225rem 0; } h6 { font-size: 0.9em; margin: 9px 0; } *[class^='col-sm'] { padding: 0 27px; } .btn { padding: 0.45em 1.125em 0.315em 1.125em; } .btn-md { font-size: 0.675em; } .btn-md { font-size: 0.9em; } .btn-lg { font-size: 1.125em; } .btn-xl { font-size: 1.35em; } .hero { font-size: 2.34em; margin-top: 5.4%; line-height: 1.26em; font-weight: 400; margin-bottom: auto; padding: 0 0.765em 0 0; } .video-clip { min-height: 120px !important; } }
 
 /* --------- 321-546px: iPhone 6 / Plus --------------- */
-@media screen and (min-width: 321px) and (max-width: 546px) { section { padding: 1.425em 0; }
-  .close-button { top: 1.425em; right: 1.9em; }
-  .client-portfolio .header { padding: 1.9em 0; height: 19em; }
-  .client-portfolio .header .title { position: relative; top: 20.9rem; }
-  .video-clip { min-height: 513px; }
-  .service-caption { min-height: 57px; }
-  .navbar { padding: 0.475rem 0 0.095rem 0; }
-  .navbar .navbar-brand { padding: 0.475em 0 !important; }
-  .navbar .navbar-nav > li > .navbar-link { padding: 0.3325em 1em; margin: 1.425em 0; font-size: 0.76em; letter-spacing: 0.095em; }
-  hr { margin: 0.95rem auto; }
-  .modal-header { height: 39.9%; }
-  .timeline img { width: 228px; height: 228px; }
-  body { font-size: 1.425em; }
-  body p { line-height: 1.6625; }
-  body p.lead { font-size: 1.045em; line-height: 1.6625; }
-  hr.spacer { margin: 0.2375em auto; }
-  h1 { font-size: 2.6125em; margin: 0.475rem 0; }
-  h2 { font-size: 2.185em; margin: 2.1375rem 0 0.475rem 0; }
-  h3 { font-size: 1.52em; margin: 0.95rem 0 0.2375rem 0; }
-  h4 { font-size: 1.3775em; margin: 1.425rem 0 0.475rem 0; }
-  h5 { font-size: 1.235em; margin: 0.95rem 0 0.2375rem 0; }
-  h6 { font-size: 0.95em; margin: 9.5px 0; }
-  *[class^='col-sm'] { padding: 0 28.5px; }
-  .btn { padding: 0.475em 1.1875em 0.3325em 1.1875em; }
-  .btn-md { font-size: 0.7125em; }
-  .btn-md { font-size: 0.95em; }
-  .btn-lg { font-size: 1.1875em; }
-  .btn-xl { font-size: 1.425em; }
-  .hero { font-size: 2.47em; margin-top: 5.7%; line-height: 1.33em; font-weight: 400; margin-bottom: auto; padding: 0 0.8075em 0 0; }
-  .video-clip { min-height: 220px !important; } }
+@media screen and (min-width: 321px) and (max-width: 546px) { section { padding: 1.425em 0; } .close-button { top: 1.425em; right: 1.9em; } .client-portfolio .header { padding: 1.9em 0; height: 19em; } .client-portfolio .header .title { position: relative; top: 20.9rem; } .video-clip { min-height: 513px; } .service-caption { min-height: 57px; } .navbar { padding: 0.475rem 0 0.095rem 0; } .navbar .navbar-brand { padding: 0.475em 0 !important; } .navbar .navbar-nav > li > .navbar-link { padding: 0.3325em 1em; margin: 1.425em 0; font-size: 0.76em; letter-spacing: 0.095em; } hr { margin: 0.95rem auto; } .modal-header { height: 39.9%; } .timeline img { width: 228px; height: 228px; } body { font-size: 1.425em; } body p { line-height: 1.6625; } body p.lead { font-size: 1.045em; line-height: 1.6625; } hr.spacer { margin: 0.2375em auto; } h1 { font-size: 2.6125em; margin: 0.475rem 0; } h2 { font-size: 2.185em; margin: 2.1375rem 0 0.475rem 0; } h3 { font-size: 1.52em; margin: 0.95rem 0 0.2375rem 0; } h4 { font-size: 1.3775em; margin: 1.425rem 0 0.475rem 0; } h5 { font-size: 1.235em; margin: 0.95rem 0 0.2375rem 0; } h6 { font-size: 0.95em; margin: 9.5px 0; } *[class^='col-sm'] { padding: 0 28.5px; } .btn { padding: 0.475em 1.1875em 0.3325em 1.1875em; } .btn-md { font-size: 0.7125em; } .btn-md { font-size: 0.95em; } .btn-lg { font-size: 1.1875em; } .btn-xl { font-size: 1.425em; } .hero { font-size: 2.47em; margin-top: 5.7%; line-height: 1.33em; font-weight: 400; margin-bottom: auto; padding: 0 0.8075em 0 0; } .video-clip { min-height: 220px !important; } }
 
 /* --------- 547-767px -------------------------------- */
-@media screen and (min-width: 547px) and (max-width: 767px) { section { padding: 1.5em 0; }
-  .close-button { top: 1.5em; right: 2em; }
-  .client-portfolio .header { padding: 2em 0; height: 20em; }
-  .client-portfolio .header .title { position: relative; top: 22rem; }
-  .video-clip { min-height: 540px; }
-  .service-caption { min-height: 60px; }
-  .navbar { padding: 0.5rem 0 0.1rem 0; }
-  .navbar .navbar-brand { padding: 0.5em 0 !important; }
-  .navbar .navbar-nav > li > .navbar-link { padding: 0.35em 1em; margin: 1.5em 0; font-size: 0.8em; letter-spacing: 0.1em; }
-  hr { margin: 1rem auto; }
-  .modal-header { height: 42%; }
-  .timeline img { width: 240px; height: 240px; }
-  body { font-size: 1.5em; }
-  body p { line-height: 1.75; }
-  body p.lead { font-size: 1.1em; line-height: 1.75; }
-  hr.spacer { margin: 0.25em auto; }
-  h1 { font-size: 2.75em; margin: 0.5rem 0; }
-  h2 { font-size: 2.3em; margin: 2.25rem 0 0.5rem 0; }
-  h3 { font-size: 1.6em; margin: 1rem 0 0.25rem 0; }
-  h4 { font-size: 1.45em; margin: 1.5rem 0 0.5rem 0; }
-  h5 { font-size: 1.3em; margin: 1rem 0 0.25rem 0; }
-  h6 { font-size: 1em; margin: 10px 0; }
-  *[class^='col-sm'] { padding: 0 30px; }
-  .btn { padding: 0.5em 1.25em 0.35em 1.25em; }
-  .btn-md { font-size: 0.75em; }
-  .btn-md { font-size: 1em; }
-  .btn-lg { font-size: 1.25em; }
-  .btn-xl { font-size: 1.5em; }
-  .hero { font-size: 2.6em; margin-top: 6%; line-height: 1.4em; font-weight: 400; margin-bottom: auto; padding: 0 0.85em 0 0; } }
+@media screen and (min-width: 547px) and (max-width: 767px) { section { padding: 1.5em 0; } .close-button { top: 1.5em; right: 2em; } .client-portfolio .header { padding: 2em 0; height: 20em; } .client-portfolio .header .title { position: relative; top: 22rem; } .video-clip { min-height: 540px; } .service-caption { min-height: 60px; } .navbar { padding: 0.5rem 0 0.1rem 0; } .navbar .navbar-brand { padding: 0.5em 0 !important; } .navbar .navbar-nav > li > .navbar-link { padding: 0.35em 1em; margin: 1.5em 0; font-size: 0.8em; letter-spacing: 0.1em; } hr { margin: 1rem auto; } .modal-header { height: 42%; } .timeline img { width: 240px; height: 240px; } body { font-size: 1.5em; } body p { line-height: 1.75; } body p.lead { font-size: 1.1em; line-height: 1.75; } hr.spacer { margin: 0.25em auto; } h1 { font-size: 2.75em; margin: 0.5rem 0; } h2 { font-size: 2.3em; margin: 2.25rem 0 0.5rem 0; } h3 { font-size: 1.6em; margin: 1rem 0 0.25rem 0; } h4 { font-size: 1.45em; margin: 1.5rem 0 0.5rem 0; } h5 { font-size: 1.3em; margin: 1rem 0 0.25rem 0; } h6 { font-size: 1em; margin: 10px 0; } *[class^='col-sm'] { padding: 0 30px; } .btn { padding: 0.5em 1.25em 0.35em 1.25em; } .btn-md { font-size: 0.75em; } .btn-md { font-size: 1em; } .btn-lg { font-size: 1.25em; } .btn-xl { font-size: 1.5em; } .hero { font-size: 2.6em; margin-top: 6%; line-height: 1.4em; font-weight: 400; margin-bottom: auto; padding: 0 0.85em 0 0; } }
 
 /* --------- 768px - 950px ---------------------------- */
-@media screen and (min-width: 768px) and (max-width: 950px) { section { padding: 1.575em 0; }
-  .close-button { top: 1.575em; right: 2.1em; }
-  .client-portfolio .header { padding: 2.1em 0; height: 21em; }
-  .client-portfolio .header .title { position: relative; top: 23.1rem; }
-  .video-clip { min-height: 567px; }
-  .service-caption { min-height: 63px; }
-  .navbar { padding: 0.525rem 0 0.105rem 0; }
-  .navbar .navbar-brand { padding: 0.525em 0 !important; }
-  .navbar .navbar-nav > li > .navbar-link { padding: 0.3675em 1em; margin: 1.575em 0; font-size: 0.84em; letter-spacing: 0.105em; }
-  hr { margin: 1.05rem auto; }
-  .modal-header { height: 44.1%; }
-  .timeline img { width: 252px; height: 252px; }
-  body { font-size: 1.575em; }
-  body p { line-height: 1.8375; }
-  body p.lead { font-size: 1.155em; line-height: 1.8375; }
-  hr.spacer { margin: 0.2625em auto; }
-  h1 { font-size: 2.8875em; margin: 0.525rem 0; }
-  h2 { font-size: 2.415em; margin: 2.3625rem 0 0.525rem 0; }
-  h3 { font-size: 1.68em; margin: 1.05rem 0 0.2625rem 0; }
-  h4 { font-size: 1.5225em; margin: 1.575rem 0 0.525rem 0; }
-  h5 { font-size: 1.365em; margin: 1.05rem 0 0.2625rem 0; }
-  h6 { font-size: 1.05em; margin: 10.5px 0; }
-  *[class^='col-sm'] { padding: 0 31.5px; }
-  .btn { padding: 0.525em 1.3125em 0.3675em 1.3125em; }
-  .btn-md { font-size: 0.7875em; }
-  .btn-md { font-size: 1.05em; }
-  .btn-lg { font-size: 1.3125em; }
-  .btn-xl { font-size: 1.575em; }
-  .hero { font-size: 2.73em; margin-top: 6.3%; line-height: 1.47em; font-weight: 400; margin-bottom: auto; padding: 0 0.8925em 0 0; } }
+@media screen and (min-width: 768px) and (max-width: 950px) { section { padding: 1.575em 0; } .close-button { top: 1.575em; right: 2.1em; } .client-portfolio .header { padding: 2.1em 0; height: 21em; } .client-portfolio .header .title { position: relative; top: 23.1rem; } .video-clip { min-height: 567px; } .service-caption { min-height: 63px; } .navbar { padding: 0.525rem 0 0.105rem 0; } .navbar .navbar-brand { padding: 0.525em 0 !important; } .navbar .navbar-nav > li > .navbar-link { padding: 0.3675em 1em; margin: 1.575em 0; font-size: 0.84em; letter-spacing: 0.105em; } hr { margin: 1.05rem auto; } .modal-header { height: 44.1%; } .timeline img { width: 252px; height: 252px; } body { font-size: 1.575em; } body p { line-height: 1.8375; } body p.lead { font-size: 1.155em; line-height: 1.8375; } hr.spacer { margin: 0.2625em auto; } h1 { font-size: 2.8875em; margin: 0.525rem 0; } h2 { font-size: 2.415em; margin: 2.3625rem 0 0.525rem 0; } h3 { font-size: 1.68em; margin: 1.05rem 0 0.2625rem 0; } h4 { font-size: 1.5225em; margin: 1.575rem 0 0.525rem 0; } h5 { font-size: 1.365em; margin: 1.05rem 0 0.2625rem 0; } h6 { font-size: 1.05em; margin: 10.5px 0; } *[class^='col-sm'] { padding: 0 31.5px; } .btn { padding: 0.525em 1.3125em 0.3675em 1.3125em; } .btn-md { font-size: 0.7875em; } .btn-md { font-size: 1.05em; } .btn-lg { font-size: 1.3125em; } .btn-xl { font-size: 1.575em; } .hero { font-size: 2.73em; margin-top: 6.3%; line-height: 1.47em; font-weight: 400; margin-bottom: auto; padding: 0 0.8925em 0 0; } }
 
 /* --------- 950px - 1200px ----------------------------- */
-@media screen and (min-width: 951px) and (max-width: 1200px) { section { padding: 1.65em 0; }
-  .close-button { top: 1.65em; right: 2.2em; }
-  .client-portfolio .header { padding: 2.2em 0; height: 22em; }
-  .client-portfolio .header .title { position: relative; top: 24.2rem; }
-  .video-clip { min-height: 594px; }
-  .service-caption { min-height: 66px; }
-  .navbar { padding: 0.55rem 0 0.11rem 0; }
-  .navbar .navbar-brand { padding: 0.55em 0 !important; }
-  .navbar .navbar-nav > li > .navbar-link { padding: 0.385em 1em; margin: 1.65em 0; font-size: 0.88em; letter-spacing: 0.11em; }
-  hr { margin: 1.1rem auto; }
-  .modal-header { height: 46.2%; }
-  .timeline img { width: 264px; height: 264px; }
-  body { font-size: 1.65em; }
-  body p { line-height: 1.925; }
-  body p.lead { font-size: 1.21em; line-height: 1.925; }
-  hr.spacer { margin: 0.275em auto; }
-  h1 { font-size: 3.025em; margin: 0.55rem 0; }
-  h2 { font-size: 2.53em; margin: 2.475rem 0 0.55rem 0; }
-  h3 { font-size: 1.76em; margin: 1.1rem 0 0.275rem 0; }
-  h4 { font-size: 1.595em; margin: 1.65rem 0 0.55rem 0; }
-  h5 { font-size: 1.43em; margin: 1.1rem 0 0.275rem 0; }
-  h6 { font-size: 1.1em; margin: 11px 0; }
-  *[class^='col-sm'] { padding: 0 33px; }
-  .btn { padding: 0.55em 1.375em 0.385em 1.375em; }
-  .btn-md { font-size: 0.825em; }
-  .btn-md { font-size: 1.1em; }
-  .btn-lg { font-size: 1.375em; }
-  .btn-xl { font-size: 1.65em; }
-  .hero { font-size: 2.86em; margin-top: 6.6%; line-height: 1.54em; font-weight: 400; margin-bottom: auto; padding: 0 0.935em 0 0; } }
+@media screen and (min-width: 951px) and (max-width: 1200px) { section { padding: 1.65em 0; } .close-button { top: 1.65em; right: 2.2em; } .client-portfolio .header { padding: 2.2em 0; height: 22em; } .client-portfolio .header .title { position: relative; top: 24.2rem; } .video-clip { min-height: 594px; } .service-caption { min-height: 66px; } .navbar { padding: 0.55rem 0 0.11rem 0; } .navbar .navbar-brand { padding: 0.55em 0 !important; } .navbar .navbar-nav > li > .navbar-link { padding: 0.385em 1em; margin: 1.65em 0; font-size: 0.88em; letter-spacing: 0.11em; } hr { margin: 1.1rem auto; } .modal-header { height: 46.2%; } .timeline img { width: 264px; height: 264px; } body { font-size: 1.65em; } body p { line-height: 1.925; } body p.lead { font-size: 1.21em; line-height: 1.925; } hr.spacer { margin: 0.275em auto; } h1 { font-size: 3.025em; margin: 0.55rem 0; } h2 { font-size: 2.53em; margin: 2.475rem 0 0.55rem 0; } h3 { font-size: 1.76em; margin: 1.1rem 0 0.275rem 0; } h4 { font-size: 1.595em; margin: 1.65rem 0 0.55rem 0; } h5 { font-size: 1.43em; margin: 1.1rem 0 0.275rem 0; } h6 { font-size: 1.1em; margin: 11px 0; } *[class^='col-sm'] { padding: 0 33px; } .btn { padding: 0.55em 1.375em 0.385em 1.375em; } .btn-md { font-size: 0.825em; } .btn-md { font-size: 1.1em; } .btn-lg { font-size: 1.375em; } .btn-xl { font-size: 1.65em; } .hero { font-size: 2.86em; margin-top: 6.6%; line-height: 1.54em; font-weight: 400; margin-bottom: auto; padding: 0 0.935em 0 0; } }
 
 /* --------- 1201px - 1600px ------------------------------ */
-@media screen and (min-width: 1201px) and (max-width: 1600px) { section { padding: 1.725em 0; }
-  .close-button { top: 1.725em; right: 2.3em; }
-  .client-portfolio .header { padding: 2.3em 0; height: 23em; }
-  .client-portfolio .header .title { position: relative; top: 25.3rem; }
-  .video-clip { min-height: 621px; }
-  .service-caption { min-height: 69px; }
-  .navbar { padding: 0.575rem 0 0.115rem 0; }
-  .navbar .navbar-brand { padding: 0.575em 0 !important; }
-  .navbar .navbar-nav > li > .navbar-link { padding: 0.4025em 1em; margin: 1.725em 0; font-size: 0.92em; letter-spacing: 0.115em; }
-  hr { margin: 1.15rem auto; }
-  .modal-header { height: 48.3%; }
-  .timeline img { width: 276px; height: 276px; }
-  body { font-size: 1.725em; }
-  body p { line-height: 2.0125; }
-  body p.lead { font-size: 1.265em; line-height: 2.0125; }
-  hr.spacer { margin: 0.2875em auto; }
-  h1 { font-size: 3.1625em; margin: 0.575rem 0; }
-  h2 { font-size: 2.645em; margin: 2.5875rem 0 0.575rem 0; }
-  h3 { font-size: 1.84em; margin: 1.15rem 0 0.2875rem 0; }
-  h4 { font-size: 1.6675em; margin: 1.725rem 0 0.575rem 0; }
-  h5 { font-size: 1.495em; margin: 1.15rem 0 0.2875rem 0; }
-  h6 { font-size: 1.15em; margin: 11.5px 0; }
-  *[class^='col-sm'] { padding: 0 34.5px; }
-  .btn { padding: 0.575em 1.4375em 0.4025em 1.4375em; }
-  .btn-md { font-size: 0.8625em; }
-  .btn-md { font-size: 1.15em; }
-  .btn-lg { font-size: 1.4375em; }
-  .btn-xl { font-size: 1.725em; }
-  .hero { font-size: 2.99em; margin-top: 6.9%; line-height: 1.61em; font-weight: 400; margin-bottom: auto; padding: 0 0.9775em 0 0; } }
+@media screen and (min-width: 1201px) and (max-width: 1600px) { section { padding: 1.725em 0; } .close-button { top: 1.725em; right: 2.3em; } .client-portfolio .header { padding: 2.3em 0; height: 23em; } .client-portfolio .header .title { position: relative; top: 25.3rem; } .video-clip { min-height: 621px; } .service-caption { min-height: 69px; } .navbar { padding: 0.575rem 0 0.115rem 0; } .navbar .navbar-brand { padding: 0.575em 0 !important; } .navbar .navbar-nav > li > .navbar-link { padding: 0.4025em 1em; margin: 1.725em 0; font-size: 0.92em; letter-spacing: 0.115em; } hr { margin: 1.15rem auto; } .modal-header { height: 48.3%; } .timeline img { width: 276px; height: 276px; } body { font-size: 1.725em; } body p { line-height: 2.0125; } body p.lead { font-size: 1.265em; line-height: 2.0125; } hr.spacer { margin: 0.2875em auto; } h1 { font-size: 3.1625em; margin: 0.575rem 0; } h2 { font-size: 2.645em; margin: 2.5875rem 0 0.575rem 0; } h3 { font-size: 1.84em; margin: 1.15rem 0 0.2875rem 0; } h4 { font-size: 1.6675em; margin: 1.725rem 0 0.575rem 0; } h5 { font-size: 1.495em; margin: 1.15rem 0 0.2875rem 0; } h6 { font-size: 1.15em; margin: 11.5px 0; } *[class^='col-sm'] { padding: 0 34.5px; } .btn { padding: 0.575em 1.4375em 0.4025em 1.4375em; } .btn-md { font-size: 0.8625em; } .btn-md { font-size: 1.15em; } .btn-lg { font-size: 1.4375em; } .btn-xl { font-size: 1.725em; } .hero { font-size: 2.99em; margin-top: 6.9%; line-height: 1.61em; font-weight: 400; margin-bottom: auto; padding: 0 0.9775em 0 0; } }
 
 /* --------- 1601px + ----------- */
-@media screen and (min-width: 1601px) and (max-width: 10000px) { section { padding: 1.8em 0; }
-  .close-button { top: 1.8em; right: 2.4em; }
-  .client-portfolio .header { padding: 2.4em 0; height: 24em; }
-  .client-portfolio .header .title { position: relative; top: 26.4rem; }
-  .video-clip { min-height: 648px; }
-  .service-caption { min-height: 72px; }
-  .navbar { padding: 0.6rem 0 0.12rem 0; }
-  .navbar .navbar-brand { padding: 0.6em 0 !important; }
-  .navbar .navbar-nav > li > .navbar-link { padding: 0.42em 1em; margin: 1.8em 0; font-size: 0.96em; letter-spacing: 0.12em; }
-  hr { margin: 1.2rem auto; }
-  .modal-header { height: 50.4%; }
-  .timeline img { width: 288px; height: 288px; }
-  body { font-size: 1.8em; }
-  body p { line-height: 2.1; }
-  body p.lead { font-size: 1.32em; line-height: 2.1; }
-  hr.spacer { margin: 0.3em auto; }
-  h1 { font-size: 3.3em; margin: 0.6rem 0; }
-  h2 { font-size: 2.76em; margin: 2.7rem 0 0.6rem 0; }
-  h3 { font-size: 1.92em; margin: 1.2rem 0 0.3rem 0; }
-  h4 { font-size: 1.74em; margin: 1.8rem 0 0.6rem 0; }
-  h5 { font-size: 1.56em; margin: 1.2rem 0 0.3rem 0; }
-  h6 { font-size: 1.2em; margin: 12px 0; }
-  *[class^='col-sm'] { padding: 0 36px; }
-  .btn { padding: 0.6em 1.5em 0.42em 1.5em; }
-  .btn-md { font-size: 0.9em; }
-  .btn-md { font-size: 1.2em; }
-  .btn-lg { font-size: 1.5em; }
-  .btn-xl { font-size: 1.8em; }
-  .hero { font-size: 3.12em; margin-top: 7.2%; line-height: 1.68em; font-weight: 400; margin-bottom: auto; padding: 0 1.02em 0 0; } }
+@media screen and (min-width: 1601px) and (max-width: 10000px) { section { padding: 1.8em 0; } .close-button { top: 1.8em; right: 2.4em; } .client-portfolio .header { padding: 2.4em 0; height: 24em; } .client-portfolio .header .title { position: relative; top: 26.4rem; } .video-clip { min-height: 648px; } .service-caption { min-height: 72px; } .navbar { padding: 0.6rem 0 0.12rem 0; } .navbar .navbar-brand { padding: 0.6em 0 !important; } .navbar .navbar-nav > li > .navbar-link { padding: 0.42em 1em; margin: 1.8em 0; font-size: 0.96em; letter-spacing: 0.12em; } hr { margin: 1.2rem auto; } .modal-header { height: 50.4%; } .timeline img { width: 288px; height: 288px; } body { font-size: 1.8em; } body p { line-height: 2.1; } body p.lead { font-size: 1.32em; line-height: 2.1; } hr.spacer { margin: 0.3em auto; } h1 { font-size: 3.3em; margin: 0.6rem 0; } h2 { font-size: 2.76em; margin: 2.7rem 0 0.6rem 0; } h3 { font-size: 1.92em; margin: 1.2rem 0 0.3rem 0; } h4 { font-size: 1.74em; margin: 1.8rem 0 0.6rem 0; } h5 { font-size: 1.56em; margin: 1.2rem 0 0.3rem 0; } h6 { font-size: 1.2em; margin: 12px 0; } *[class^='col-sm'] { padding: 0 36px; } .btn { padding: 0.6em 1.5em 0.42em 1.5em; } .btn-md { font-size: 0.9em; } .btn-md { font-size: 1.2em; } .btn-lg { font-size: 1.5em; } .btn-xl { font-size: 1.8em; } .hero { font-size: 3.12em; margin-top: 7.2%; line-height: 1.68em; font-weight: 400; margin-bottom: auto; padding: 0 1.02em 0 0; } }
 
 Assistant.content { padding-bottom: 6em; }
 
@@ -574,24 +366,11 @@ ul.social-media-list > li a:hover { text-decoration: none; }
 
 .timeline .timeline-body > p, .timeline .timeline-body > ul { margin-bottom: 0; }
 
-@media (min-width: 768px) { .timeline:before { left: 50%; }
-  .timeline > li { margin-bottom: .75em; min-height: 100px; }
-  .timeline > li .timeline-panel { float: left; width: 41%; padding: 0 20px 20px 30px; text-align: right; }
-  .timeline > li .timeline-image { left: 50%; width: 100px; height: 100px; margin-left: -50px; }
-  .timeline > li .timeline-image h4 { margin-top: 16px; font-size: 13px; line-height: 18px; }
-  .timeline > li.timeline-inverted > .timeline-panel { float: right; padding: 0 30px 20px 20px; text-align: left; } }
+@media (min-width: 768px) { .timeline:before { left: 50%; } .timeline > li { margin-bottom: .75em; min-height: 100px; } .timeline > li .timeline-panel { float: left; width: 41%; padding: 0 20px 20px 30px; text-align: right; } .timeline > li .timeline-image { left: 50%; width: 100px; height: 100px; margin-left: -50px; } .timeline > li .timeline-image h4 { margin-top: 16px; font-size: 13px; line-height: 18px; } .timeline > li.timeline-inverted > .timeline-panel { float: right; padding: 0 30px 20px 20px; text-align: left; } }
 
-@media (min-width: 992px) { .timeline > li { min-height: 260px; }
-  .timeline > li .timeline-panel { padding: 0 20px 20px; }
-  .timeline > li .timeline-image { width: 260px; height: 260px; margin-left: -75px; }
-  .timeline > li .timeline-image h4 { margin-top: 30px; font-size: 18px; line-height: 26px; }
-  .timeline > li.timeline-inverted > .timeline-panel { padding: 0 20px 20px; } }
+@media (min-width: 992px) { .timeline > li { min-height: 260px; } .timeline > li .timeline-panel { padding: 0 20px 20px; } .timeline > li .timeline-image { width: 260px; height: 260px; margin-left: -75px; } .timeline > li .timeline-image h4 { margin-top: 30px; font-size: 18px; line-height: 26px; } .timeline > li.timeline-inverted > .timeline-panel { padding: 0 20px 20px; } }
 
-@media (min-width: 1200px) { .timeline > li { min-height: 270px; }
-  .timeline > li .timeline-panel { padding: 0 20px 20px 100px; }
-  .timeline > li .timeline-image { width: 270px; height: 270px; margin-left: -85px; }
-  .timeline > li .timeline-image h4 { margin-top: 40px; }
-  .timeline > li.timeline-inverted > .timeline-panel { padding: 0 100px 20px 20px; } }
+@media (min-width: 1200px) { .timeline > li { min-height: 270px; } .timeline > li .timeline-panel { padding: 0 20px 20px 100px; } .timeline > li .timeline-image { width: 270px; height: 270px; margin-left: -85px; } .timeline > li .timeline-image h4 { margin-top: 40px; } .timeline > li.timeline-inverted > .timeline-panel { padding: 0 100px 20px 20px; } }
 
 footer { position: relative; background-color: #fff; padding: 40px 0; text-align: center; }
 

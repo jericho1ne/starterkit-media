@@ -15,8 +15,5 @@ tagline:
 social:
 - title: twitter
   url: https://twitter.com/RakuMediaLLC
-- title: facebook
-  url: https://www.facebook.com/RakuMediaLLC
-
 
 ---
